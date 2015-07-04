@@ -1,0 +1,58 @@
+<div class="eqLogic-widget eqLogic noResize" style="width: 200px;background-color: #background_color#; padding : 0px; #style#" data-eqLogic_id="#id#" data-version="dashboard" >
+    <span class="statusCmd" style="position : absolute;left : 5px; width : 30px;z-index: 1030;"></span>
+    <i class='fa fa-refresh pull-right cursor refresh' style="margin-top: 3px;margin-right: 3px;"></i>
+    <center><a href="#eqLink#" style="font-size : 1.5em;"> #name# </a></center>
+
+    <span class="cmd cmd-widget" data-cmd_id="#refresh_id#" style="display:none;"></span>
+    <div class="row">
+	
+	<div class="col-xs-5">
+	<img src="plugins/porkfolio/core/template/images/porky_#porky_humeur#.png" alt="Porky" height="85" width="90" title="Dernier Mouvement (#datemouvement#)&#10Dernier Retournement (#dateretournement#)" style="margin-left: 3px;">
+   </div>
+	<div class="col-xs-6">
+	<center>
+	<span class="derniervers #derniervers_history#" data-cmd_id="#derniervers_id#"><span title="Date dernier dépot (#datedepot#)"><i id="#derniervers_id#" class="fa fa-money"></i>  #derniervers# €</span></br>
+    <span class="objectif #objectif_history#" data-cmd_id="#objectif_id#"><span title="Objectif (#objectif_collect#)"><i id="#objectif_id#" class="fa fa-flag-checkered"></i>  #objectif# €</span></br>
+    <span class="nez #nez_history#" data-cmd_id="#nez_id#" title="Couleur du nez (#nez_collect#)"><i id="#nez_id#" class="fa fa-paint-brush"></i>   <span style="background:##nez#;border-radius: 60px;">&nbsp;&nbsp;&nbsp;&nbsp;</span></span></br>
+   <div class="progress" style="height:8px; margin-top: 5px">
+                <div class="progress-bar progress-bar-success objectif #objectif_history#" data-cmd_id="#objectif_id#" title="Actuel : #somme# €&#10Objectif : #objectif# €"></div>
+    </div>
+	</center>
+	</div>
+	</div>
+	<center>
+       <span class="somme #somme_history#" data-cmd_id="#somme_id#" title="Somme en cours (#somme_collect#)" style="font-size : 1.5em;"><i class="fa fa-diamond"></i> #somme# €</span>
+    </center>
+	
+
+    <script>
+        $('.eqLogic[data-eqLogic_id=#id#] .refresh').on('click', function () {
+            jeedom.cmd.execute({id: '#refresh_id#'});
+        });
+		
+		$('##objectif_id#').on('click', function() {
+			$('#md_modal2').dialog({
+				title: "Changer l'objectif"
+			});
+			
+			$('#md_modal2').load('index.php?v=d&plugin=porkfolio&modal=objectif.porkfolio&id='+ #id#).dialog('open');
+	 });
+	 $('##derniervers_id#').on('click', function() {
+			$('#md_modal2').dialog({
+				title: "Retirer ou déposer de l'argent"
+			});
+			
+			$('#md_modal2').load('index.php?v=d&plugin=porkfolio&modal=retraitdepot.porkfolio&id='+#id#).dialog('open');
+	 });
+	 $('##nez_id#').on('click', function() {
+			$('#md_modal2').dialog({title: "Changer la couleur du nez"
+			});
+			
+			$('#md_modal2').load('index.php?v=d&plugin=porkfolio&modal=couleurnez.porkfolio&id='+ #id#).dialog('open');
+	 });
+		
+		$('.eqLogic[data-eqLogic_id=#id#] .objectif').css('width', (parseFloat('#somme#') / parseFloat('#objectif#') * 100) + '%');
+    </script>
+
+</div>
+
