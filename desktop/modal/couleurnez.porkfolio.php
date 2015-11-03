@@ -16,12 +16,6 @@
 * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
 */
 
-if (!isConnect('admin')) {
-    throw new Exception('{{401 - Accès non autorisé}}');
-}
-
-//include_file('desktop', 'panel', 'css', 'comptes'); 
-
 
 if (init('id') == '') {
     throw new Exception('{{L\'id de l\'équipement ne peut etre vide : }}' . init('op_id'));
@@ -37,10 +31,10 @@ $id = $porkfolio->getId();
 $nez= $porkfolio->getCmd(null,'nez')->execCmd();
 ?>
 <div class="alert alert-info">
-            Choisissez la couleur du nez de votre porkfolio. La couleur actuelle est <span style="background:#<?php echo $nez; ?>;border-radius: 60px;">&nbsp;&nbsp;&nbsp;&nbsp;</span>.
+            Choisissez la couleur du nez de votre porkfolio. La couleur actuelle est <i class="fa fa-circle fa-lg" style="color : #<?php echo $nez; ?>;"></i>.
 </div>
 <div id="nezcouleur">
-<input type="color" id="couleur" name='<?php echo $id; ?>' value='#ff0000'/>
+<input type="color" id="couleur" name='<?php echo $id; ?>' value='#<?php echo $nez; ?>'/>
 </div>
 <br />
 <a class="btn btn-success nezcouleur"><i class="fa fa-check-circle"></i> ok</a>

@@ -14,9 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
-if (!isConnect('admin')) {
-	throw new Exception('{{401 - Accès non autorisé}}');
-}
+
 ?>
 <div id='div_updateporkfolioAlert' style="display: none;"></div>
 <pre id='pre_porkfolioupdate' style='overflow: auto; height: 90%;with:90%;'></pre>

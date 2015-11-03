@@ -16,12 +16,6 @@
 * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
 */
 
-if (!isConnect('admin')) {
-    throw new Exception('{{401 - Accès non autorisé}}');
-}
-
-//include_file('desktop', 'panel', 'css', 'comptes'); 
-
 
 if (init('id') == '') {
     throw new Exception('{{L\'id de l\'équipement ne peut etre vide : }}' . init('op_id'));
