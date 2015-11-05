@@ -4,23 +4,27 @@
     <center><a href="#eqLink#" style="font-size : 1.5em;"> #name# </a></center>
 
     <span class="cmd cmd-widget" data-cmd_id="#refresh_id#" style="display:none;"></span>
-    <div class="row">
+    
+    <div class="row" style="margin:5px 0px 0px 0px;">
 	
-	<div class="col-xs-5">
-	<img src="plugins/porkfolio/core/template/images/porky_#porky_humeur#.png" alt="Porky" height="85" width="90" title="Dernier Mouvement (#datemouvement#)&#10Dernier Retournement (#dateretournement#)" style="margin-left: 3px;">
-   </div>
-	<div class="col-xs-6">
-	<center>
-	<span class="derniervers #derniervers_history#" data-cmd_id="#derniervers_id#"><span title="Date dernier dépot (#datedepot#)"><i id="#derniervers_id#" class="fa fa-money cursor"></i>  #derniervers# €</span></br>
-    <span class="objectif #objectif_history#" data-cmd_id="#objectif_id#"><span title="Objectif (#objectif_collect#)"><i id="#objectif_id#" class="fa fa-flag-checkered cursor"></i>  #objectif# €</span></br>
-    <span class="nez #nez_history#" data-cmd_id="#nez_id#" title="Couleur du nez (#nez_collect#)"><i id="#nez_id#" class="fa fa-paint-brush cursor"></i>   <i class="fa fa-circle fa-lg" style="color : ##nez#;"></i></span></br>
-   <div class="progress" style="height:8px; margin-top: 5px">
-                <div class="progress-bar progress-bar-success objectif #objectif_history#" data-cmd_id="#objectif_id#" title="Actuel : #somme# €&#10Objectif : #objectif# €"></div>
+		<div class="col-xs-6" style="text-align: center">
+			<img src="plugins/porkfolio/core/template/images/porky_#porky_humeur#.png" alt="Porky" height="85" width="90" title="Dernier Mouvement (#datemouvement#)&#10Dernier Retournement (#dateretournement#)" style="margin-left: 3px;">
+   		</div>
+	
+    	<div class="col-xs-6" style="text-align: center">
+			<center>
+				<span class="derniervers #derniervers_history#" data-cmd_id="#derniervers_id#"><span title="Date dernier dépot (#datedepot#)"><i id="#derniervers_id#" class="fa fa-money cursor"></i>  #derniervers# €</span></br>
+    			<span class="objectif #objectif_history#" data-cmd_id="#objectif_id#"><span title="Objectif (#objectif_collect#)"><i id="#objectif_id#" class="fa fa-flag-checkered cursor"></i>  #objectif# €</span></br>
+    			<span class="nez #nez_history#" data-cmd_id="#nez_id#" title="Couleur du nez (#nez_collect#)"><i id="#nez_id#" class="fa fa-paint-brush cursor"></i>   <i class="fa fa-circle fa-lg" style="color : ##nez#;"></i></span></br>
+   				<div class="progress" style="height:8px; margin-top: 5px">
+                	<div class="progress-bar progress-bar-success objectif #objectif_history#" data-cmd_id="#objectif_id#" title="Actuel : #somme# €&#10Objectif : #objectif# €"></div>
+    			</div>
+			</center>
+		</div>
+	
     </div>
-	</center>
-	</div>
-	</div>
-	<center>
+	
+    <center>
        <span class="somme #somme_history#" data-cmd_id="#somme_id#" title="Somme en cours (#somme_collect#)" style="font-size : 1.5em;"><i class="fa fa-diamond"></i> #somme# €</span>
     </center>
 	
@@ -55,4 +59,3 @@
     </script>
 
 </div>
-
