@@ -62,6 +62,12 @@ class porkfolio extends eqLogic {
 						log::add('porkfolio','debug','set:'.$cmd->getName().' to '. $value);
 					}
 				}
+                $mc = cache::byKey('porkfolioWidgetmobile' . $porkfolio->getId());
+				$mc->remove();
+				$mc = cache::byKey('porkfolioWidgetdashboard' . $porkfolio->getId());
+				$mc->remove();
+				$porkfolio->toHtml('mobile');
+				$porkfolio->toHtml('dashboard');
 				$porkfolio->refreshWidget();
 			}
 		}
@@ -268,7 +274,14 @@ class porkfolio extends eqLogic {
 		if (!$this->hasRight('r')) {
 			return '';
 		}
-		$_version = jeedom::versionAlias($_version);
+		$version = jeedom::versionAlias($_version);
+		if ($this->getDisplay('hideOn' . $version) == 1) {
+			return '';
+		}
+		$mc = cache::byKey('porkfolioWidget' . jeedom::versionAlias($_version) . $this->getId());
+		if ($mc->getValue() != '') {
+			return preg_replace("/" . preg_quote(self::UIDDELIMITER) . "(.*?)" . preg_quote(self::UIDDELIMITER) . "/", self::UIDDELIMITER . mt_rand() . self::UIDDELIMITER, $mc->getValue());
+		}
 		$background=$this->getBackgroundColor($_version);
 		if ($this->getCmd(null,'derniervers')->execCmd()<0){
 			$humeur='triste';
@@ -287,6 +300,7 @@ class porkfolio extends eqLogic {
 			'#name#' => $this->getName(),
 			'#id#' => $this->getId(),
 			'#background_color#' => $background,
+			'#uid#' => 'porkfolio' . $this->getId() . self::UIDDELIMITER . mt_rand() . self::UIDDELIMITER,
 			'#eqLink#' => $this->getLinkToConfiguration(),
 			'#porky_humeur#' => $humeur,
 		);

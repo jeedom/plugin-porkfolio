@@ -14,9 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
-
+if (!isConnect('admin')) {
+	throw new Exception('{{401 - Accès non autorisé}}');
+}
 ?>
 <div id='div_updateporkfolioAlert' style="display: none;"></div>
+
+<a class="btn btn-warning pull-right" data-state="1" id="bt_porkfolioLogStopStart"><i class="fa fa-pause"></i> {{Pause}}</a>
+<input class="form-control pull-right" id="in_porkfolioLogSearch" style="width : 300px;" placeholder="{{Rechercher}}" />
+<br/><br/><br/>
 <pre id='pre_porkfolioupdate' style='overflow: auto; height: 90%;with:90%;'></pre>
 
 
@@ -25,7 +31,7 @@
 		type: 'POST',
 		url: 'plugins/porkfolio/core/ajax/porkfolio.ajax.php',
 		data: {
-			action: 'updateporkfolio'
+			action: 'updateporkfolio',
 		},
 		dataType: 'json',
 		global: false,
@@ -33,45 +39,12 @@
 			handleAjaxError(request, status, error, $('#div_updateporkfolioAlert'));
 		},
 		success: function () {
-			getporkfolioLog(1);
+			jeedom.log.autoupdate({
+               log : 'porkfolio_update',
+               display : $('#pre_porkfolioupdate'),
+               search : $('#in_porkfolioLogSearch'),
+               control : $('#bt_porkfolioLogStopStart'),
+           });
 		}
 	});
-	function getporkfolioLog(_autoUpdate) {
-		$.ajax({
-			type: 'POST',
-			url: 'core/ajax/log.ajax.php',
-			data: {
-				action: 'get',
-				logfile: 'porkfolio_update',
-			},
-			dataType: 'json',
-			global: false,
-			error: function (request, status, error) {
-				setTimeout(function () {
-					getJeedomLog(_autoUpdate, _log)
-				}, 1000);
-			},
-			success: function (data) {
-				if (data.state != 'ok') {
-					$('#div_alert').showAlert({message: data.result, level: 'danger'});
-					return;
-				}
-				var log = '';
-				var regex = /<br\s*[\/]?>/gi;
-				for (var i in data.result.reverse()) {
-					log += data.result[i][2].replace(regex, "\n");
-				}
-				$('#pre_porkfolioupdate').text(log);
-				$('#pre_porkfolioupdate').scrollTop($('#pre_porkfolioupdate').height() + 200000);
-				if (!$('#pre_porkfolioupdate').is(':visible')) {
-					_autoUpdate = 0;
-				}
-				if (init(_autoUpdate, 0) == 1) {
-					setTimeout(function () {
-						getporkfolioLog(_autoUpdate)
-					}, 1000);
-				}
-			}
-		});
-	}
 </script>
