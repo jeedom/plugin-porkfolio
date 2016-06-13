@@ -30,7 +30,7 @@ si vous voulez que l'équippement soit actif ou non , et enfin si vous voulez qu
 
 * *Configuration*
 
-Cette section est utile si et seulement si vous possédez plusieurs porkfolio. Il faudra rentrer le numéro de l'équippement (1, 2 ou 3 par exemple). Vous pouvez laisser ce champ vide
+Cette section est utile si et seulement si vous possédez plusieurs porkfolio. Il faudra rentrer le numéro de l'équippement (1, 2 ou 3 par example). Vous pouvez laisser ce champ vide
 si vous possédez un seul porkfolio ce qui sera surement votre cas.
 
 * *Commandes*
