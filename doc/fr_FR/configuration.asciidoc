@@ -8,7 +8,7 @@ Suite à cela il vous faudra renseigner vos identifiants (compte wink + api):
 
 image:../images/porkfolio_screenshot7.jpg[width=580]
 
-Rendez vous dans le menu plugins/Finances, vous y trouverez le plugin porkfolio :
+Rendez vous dans le menu Plugins/Finances, vous y trouverez le plugin porkfolio :
 
 Vous arriverez sur la page qui listera vos équipements (vous pouvez avoir plusieurs Porkfolio) et qui vous permettra d'en créer
 
@@ -37,10 +37,10 @@ si vous possédez un seul porkfolio ce qui sera surement votre cas.
 
 Vous n'avez rien à faire dans cette section. Les commandes seront créées automatiquement.
 
-* Rafraichir: bouton permettant de rafraichir le widget si besoin
+* Rafraîchir: bouton permettant de rafraîchir le widget si besoin
 * Date de dépot : Date de la dernière opération
-* Date mouvement : Date de la dernière fois ou un mouvement a été détecté
-* Date retournement : Date de la dernière fois ou le porkfolio a été retourné
+* Date mouvement : Date de la dernière fois où un mouvement a été détecté
+* Date retournement : Date de la dernière fois où le porkfolio a été retourné
 * Dernière opération : Montant de la dernière opération
 * Nez : Couleur du nez
 * Objectif : Montant de votre objectif
