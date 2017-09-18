@@ -1,11 +1,11 @@
 {
-	"id" : "denonavr",
-	"name" : "Denon",
-	"description" : "Plugin permettant de piloter les amplificateurs Denon",
+	"id" : "porkfolio",
+	"name" : "Porkfolio",
+	"description" : "Plugin pour envoyer et recevoir des infos de votre Pokfolio",
 	"licence" : "AGPL",
-	"author" : "Loïc",
+	"author" : "Ludovic SARAKHA",
 	"require" : "3.0",
-	"category" : "multimedia",
-	"changelog" : "https://github.com/jeedom/plugin-denonavr/blob/stable/doc/#language#/changelog.asciidoc",
-	"documentation" : "https://github.com/jeedom/plugin-denonavr/blob/stable/doc/#language#/index.asciidoc"
+	"category" : "finance",
+	"changelog" : "https://github.com/jeedom/plugin-porkfolio/blob/stable/doc/#language#/changelog.asciidoc",
+	"documentation" : "https://github.com/jeedom/plugin-porkfolio/blob/stable/doc/#language#/index.asciidoc"
 }
