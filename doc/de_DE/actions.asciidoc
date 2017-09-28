@@ -1,0 +1,17 @@
+==== Actions accessibles sur le dashboard :
+
+Plusieurs actions sont accessibles sur le dashboard :
+
+image:../images/dashboardactions.jpg[width=380]
+
+* A : En cliquant sur le billet vous pourrez déposer ou retirer une somme d'argent
+
+image:../images/porkfolio_screenshot2.jpg[width=380]
+
+* B : En cliquant sur le drapeau vous pourrez modifier votre objectif
+
+image:../images/porkfolio_screenshot3.jpg[width=380]
+
+* C : En cliquant sur le pinceau vous pourrez modifier la couleur du nez de votre porkfolio
+
+image:../images/porkfolio_screenshot4.jpg[width=380]

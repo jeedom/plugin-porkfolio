@@ -1,0 +1,11 @@
+==== Informations sur le dashboard :
+
+image:../images/dashboardinfo.jpg[width=380]
+
+* A : Tête du cochon qui peut changer d'humeur. En laissant la souris sur sa tête il vous dira quand il a bougé pour la dernière fois ainsi que la dernière fois où il a été retourné
+* B : Bouton rafraîchir pour redemander les valeurs au serveur
+* C : Montant de la dernière opération. En laissant la souris dessus vous aurez la date de la dernière opération
+* D : Montant de votre objectif
+* E : Couleur du nez de votre porkfolio
+* F : Barre de progression dans l'atteinte de votre objectif
+* G : Somme actuellement dans votre porkfolio

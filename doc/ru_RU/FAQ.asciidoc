@@ -1,0 +1,11 @@
+[panel,primary]
+.Quelle est la fréquence de rafraichissement des infos
+--
+Le système recupère les informations toutes les heures. Vous pouvez cliquer sur la commande Rafraîchir pour rafraîchir manuellement.
+--
+
+[panel,primary]
+.Toutes mes infos sont vides
+--
+Assurez-vous d'avoir créé le fichier de config en sauvant vos infos dans la config générale du plugin.
+--
