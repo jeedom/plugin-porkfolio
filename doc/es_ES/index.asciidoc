@@ -1,6 +1,6 @@
 == Porkfolio
 
-=== Description
+=== Descripción
 Ce plugin permet de controller et d'avoir toutes les infos de sa tirelire Porkfolio.
 
 image:../images/porkfolio_screenshot1.jpg[width=256]

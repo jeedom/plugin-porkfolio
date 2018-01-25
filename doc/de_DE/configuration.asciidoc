@@ -20,12 +20,12 @@ Vous arriverez ensuite sur la page de configuration de votre porkfolio:
 
 image:../images/porkfolio_screenshot5.jpg[width=680]
 
-Sur cette page vous trouverez plusieurs sections :
+Auf dieser Seite finden Sie mehrere Abschnitte :
 
 * *Général*
 
-Vous trouverez dans cette section toutes les configurations Jeedom. A savoir
-le nom de votre équippement, l'objet auquel vous voulez l'associer, la catégorie (de préférence multimédia),
+Sie finden in diesem Abschnitt alle Jeedom Konfigurationen. Nämlich
+Das ist der Gerätename, das Objekt das Sie verknüpfen möchten, die Kategorie (vorzugsweise Multimedia),
 si vous voulez que l'équipement soit actif ou non , et enfin si vous voulez qu'il soit visible sur le dashboard.
 
 * *Konfiguration*
@@ -33,7 +33,7 @@ si vous voulez que l'équipement soit actif ou non , et enfin si vous voulez qu'
 Cette section est utile si et seulement si vous possédez plusieurs porkfolio. Il faudra rentrer le numéro de l'équippement (1, 2 ou 3 par exemple). Vous pouvez laisser ce champ vide
 si vous possédez un seul porkfolio ce qui sera sûrement votre cas.
 
-* *Commandes*
+* *Befehle*
 
 Vous n'avez rien à faire dans cette section. Les commandes seront créées automatiquement.
 
