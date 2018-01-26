@@ -1,0 +1,6 @@
+{
+    "plugins/porkfolio/plugin_info/info.xml": {
+        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": "あなたのPokfolioからの情報を送受信するためのプラグイン",
+        "Aucune": "何でもありません"
+    }
+}
