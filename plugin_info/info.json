@@ -5,7 +5,7 @@
 	"licence" : "AGPL",
 	"author" : "Ludovic SARAKHA",
 	"require" : "3.0",
-	"category" : "finance",
-	"changelog" : "https://github.com/jeedom/plugin-porkfolio/blob/stable/doc/#language#/changelog.asciidoc",
-	"documentation" : "https://github.com/jeedom/plugin-porkfolio/blob/stable/doc/#language#/index.asciidoc"
+        "category" : "finance",
+        "changelog" : "https://jeedom.github.io/plugin-porkfolio/#language#/changelog",
+        "documentation" : "https://jeedom.github.io/plugin-porkfolio/#language#/"
 }
