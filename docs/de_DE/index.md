@@ -51,7 +51,7 @@ l’associer, la catégorie (de préférence multimédia), si vous voulez que
 l’équipement soit actif ou non , et enfin si vous voulez qu’il soit
 visible sur le dashboard.
 
--   **Configuration**
+-   **Konfiguration**
 
 Cette section est utile si et seulement si vous possédez plusieurs
 porkfolio. Il faudra rentrer le numéro de l’équippement (1, 2 ou 3 par
