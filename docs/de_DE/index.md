@@ -1,7 +1,7 @@
 Porkfolio 
 =========
 
-Description 
+Beschreibung 
 -----------
 
 Ce plugin permet de controller et d’avoir toutes les infos de sa
