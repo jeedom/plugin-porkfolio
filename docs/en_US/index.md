@@ -1,7 +1,7 @@
 Porkfolio 
 =========
 
-Description 
+Description
 -----------
 
 Ce plugin permet de controller et d’avoir toutes les infos de sa
@@ -12,7 +12,7 @@ tirelire Porkfolio.
 ![porkfolio screenshot9](../images/porkfolio_screenshot9.jpg)
 ![porkfolio screenshot8](../images/porkfolio_screenshot8.jpg)
 
-Configuration 
+Configuration
 -------------
 
 ### Configuration du plugin Jeedom : 
