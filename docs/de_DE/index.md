@@ -1,144 +1,144 @@
-Porkfolio 
+ 
 =========
 
-Beschreibung 
+eschreibung 
 -----------
 
-Ce plugin permet de controller et d’avoir toutes les infos de sa
-tirelire Porkfolio.
 
-![porkfolio screenshot1](../images/porkfolio_screenshot1.jpg)
-![porkfolio screenshot10](../images/porkfolio_screenshot10.jpg)
-![porkfolio screenshot9](../images/porkfolio_screenshot9.jpg)
-![porkfolio screenshot8](../images/porkfolio_screenshot8.jpg)
+.
 
-Konfiguration
+![ screenshot1](../images/_screenshot1.jpg)
+![ screenshot10](../images/_screenshot10.jpg)
+![ screenshot9](../images/_screenshot9.jpg)
+![ screenshot8](../images/_screenshot8.jpg)
+
+Konfiguration 
 -------------
 
-### Configuration du plugin Jeedom : 
+### Jeedom Plugin Konfiguration : 
 
-**Installation/Création**
+****
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+Um das Plugin nutzen zu können, müssen Sie herunterladen und installieren
+aktiviere es wie jedes Jeedom Plugin.
 
-Suite à cela il vous faudra renseigner vos identifiants (compte wink +
+anach müssen Sie Ihre isnmeldeinformationen eingeben (isugenzwinkern + Konto
 api):
 
-![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
+![ screenshot7](../images/_screenshot7.jpg)
 
-Rendez vous dans le menu Plugins/Finances, vous y trouverez le plugin
-porkfolio :
 
-Vous arriverez sur la page qui listera vos équipements (vous pouvez
-avoir plusieurs Porkfolio) et qui vous permettra d’en créer
+ :
 
-![porkfolio screenshot6](../images/porkfolio_screenshot6.jpg)
+Sie gelangen auf die Seite, auf der Ihre isusrüstung aufgelistet ist (Sie können
 
-Cliquez sur le bouton Ajouter :
 
-Vous arriverez ensuite sur la page de configuration de votre porkfolio:
+![ screenshot6](../images/_screenshot6.jpg)
 
-![porkfolio screenshot5](../images/porkfolio_screenshot5.jpg)
+Klicken Sie auf die Schaltfläche Hinzufügen :
 
-Auf dieser Seite finden Sie mehrere Abschnitte :
+:
 
--   **Général**
+![ screenshot5](../images/_screenshot5.jpg)
 
-Vous trouverez dans cette section toutes les configurations Jeedom. A
-savoir le nom de votre équippement, l’objet auquel vous voulez
-l’associer, la catégorie (de préférence multimédia), si vous voulez que
-l’équipement soit actif ou non , et enfin si vous voulez qu’il soit
-visible sur le dashboard.
+isuf dieser Seite finden Sie mehrere isbschnitte :
+
+-   **isllgemein**
+
+In diesem isbschnitt finden Sie alle Jeedom-Konfigurationen. is.
+
+Ordnen Sie es der Kategorie (vorzugsweise Multimedia) zu, wenn Sie möchten
+as erät ist aktiv oder nicht, und schließlich, wenn Sie es möchten
+sichtbar auf dem isrmaturenbrett.
 
 -   **Konfiguration**
 
-Cette section est utile si et seulement si vous possédez plusieurs
-porkfolio. Il faudra rentrer le numéro de l’équippement (1, 2 ou 3 par
-exemple). Vous pouvez laisser ce champ vide si vous possédez un seul
-porkfolio ce qui sera sûrement votre cas.
+ieser isbschnitt ist genau dann nützlich, wenn Sie mehrere haben
 
--   **Commandes**
+eispiel). Sie können dieses eld leer lassen, wenn Sie nur eines haben
+.
 
-Vous n’avez rien à faire dans cette section. Les commandes seront créées
-automatiquement.
+-   **efehle**
 
--   Rafraîchir: bouton permettant de rafraîchir le widget si besoin
+In diesem isbschnitt haben Sie nichts zu tun. estellungen werden erstellt
+automatisch.
 
--   Date de dépôt : Date de la dernière opération
+-   isktualisieren: Schaltfläche, um das Widget bei edarf zu aktualisieren
 
--   Date mouvement : Date de la dernière fois où un mouvement a été
-    détecté
+-    : 
 
--   Date retournement : Date de la dernière fois où le porkfolio a été
-    retourné
+-    : 
+    
 
--   Dernière opération : Montant de la dernière opération
+-    : 
+    zurück
 
--   Nez : Couleur du nez
+-    : 
 
--   Objectif : Montant de votre objectif
+-    : 
 
--   Somme : Somme actuellement dans le porkfolio
+-    : 
 
-…​
+-   Summe : 
 
-Les informations 
+…
+
+Informationen 
 ----------------
 
-### Informations sur le dashboard : 
+### Informationen auf dem ashboard : 
 
 ![dashboardinfo](../images/dashboardinfo.jpg)
 
--   A : Tête du cochon qui peut changer d’humeur. En laissant la souris
-    sur sa tête il vous dira quand il a bougé pour la dernière fois
-    ainsi que la dernière fois où il a été retourné
+-   is : . 
+    
+    
 
--   B : Bouton rafraîchir pour redemander les valeurs au serveur
+-    : 
 
--   C : Montant de la dernière opération. En laissant la souris dessus
-    vous aurez la date de la dernière opération
+-    : . 
+    
 
--   D : Montant de votre objectif
+-    : 
 
--   E : Couleur du nez de votre porkfolio
+-   E. : 
 
--   F : Barre de progression dans l’atteinte de votre objectif
+-    : 
 
--   G : Somme actuellement dans votre porkfolio
+-    : 
 
-…​
+…
 
-Les actions 
+isktionen 
 -----------
 
-### Actions accessibles sur le dashboard : 
+###  : 
 
-Plusieurs actions sont accessibles sur le dashboard :
+ :
 
 ![dashboardactions](../images/dashboardactions.jpg)
 
--   A : En cliquant sur le billet vous pourrez déposer ou retirer une
-    somme d’argent
+-   is : 
+    
 
-![porkfolio screenshot2](../images/porkfolio_screenshot2.jpg)
+![ screenshot2](../images/_screenshot2.jpg)
 
--   B : En cliquant sur le drapeau vous pourrez modifier votre objectif
+-    : 
 
-![porkfolio screenshot3](../images/porkfolio_screenshot3.jpg)
+![ screenshot3](../images/_screenshot3.jpg)
 
--   C : En cliquant sur le pinceau vous pourrez modifier la couleur du
-    nez de votre porkfolio
+-    : 
+    
 
-![porkfolio screenshot4](../images/porkfolio_screenshot4.jpg)
+![ screenshot4](../images/_screenshot4.jpg)
 
-…​
+…
 
-FAQ 
+aq 
 ---
 
-Le système recupère les informations toutes les heures. Vous pouvez
-cliquer sur la commande Rafraîchir pour rafraîchir manuellement.
+as System ruft stündlich Informationen ab. u kannst
+Klicken Sie auf den efehl isktualisieren, um manuell zu aktualisieren.
 
-Assurez-vous d’avoir créé le fichier de config en sauvant vos infos dans
-la config générale du plugin.
+
+die allgemeine Konfiguration des Plugins.

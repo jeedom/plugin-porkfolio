@@ -1,5 +1,5 @@
 {
-    "plugin_info\/configuration.php": {
+    "plugins\/porkfolio\/plugin_info\/configuration.php": {
         "Client ID : ": "Client ID : ",
         "Client Secret : ": "Client Secret : ",
         "Username : ": "Username : ",
@@ -7,28 +7,24 @@
         "Etes-vous sûr de vouloir installer\/mettre à jour le fichier de config ? ": "Etes-vous sûr de vouloir installer\/mettre à jour le fichier de config ? ",
         "Création \/ Mise à jour du fichier de config": "Création \/ Mise à jour du fichier de config"
     },
-    "desktop\/modal\/couleurnez.porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/modal\/couleurnez.porkfolio.php": {
         "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ",
         "L\\'id de l\\'équipement ne peut etre vide : ": "L\\'id de l\\'équipement ne peut etre vide : "
     },
-    "desktop\/modal\/update.porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/modal\/update.porkfolio.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Pause": "Pause",
         "Rechercher": "Rechercher"
     },
-    "desktop\/modal\/objectif.porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/modal\/retraitdepot.porkfolio.php": {
         "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ",
         "L\\'id de l\\'équipement ne peut etre vide : ": "L\\'id de l\\'équipement ne peut etre vide : "
     },
-    "desktop\/modal\/retraitdepot.porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/modal\/objectif.porkfolio.php": {
         "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ",
         "L\\'id de l\\'équipement ne peut etre vide : ": "L\\'id de l\\'équipement ne peut etre vide : "
     },
-    "desktop\/js\/porkfolio.js": {
-        "Historiser": "Historiser",
-        "Tester": "Tester"
-    },
-    "desktop\/php\/porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/php\/porkfolio.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Ajouter un porkfolio": "Ajouter un porkfolio",
         "Rechercher": "Rechercher",
@@ -58,10 +54,14 @@
         "Options": "Options",
         "Action": "Action"
     },
-    "core\/ajax\/porkfolio.ajax.php": {
+    "plugins\/porkfolio\/desktop\/js\/porkfolio.js": {
+        "Historiser": "Historiser",
+        "Tester": "Tester"
+    },
+    "plugins\/porkfolio\/core\/ajax\/porkfolio.ajax.php": {
         "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
     },
-    "core\/class\/porkfolio.class.php": {
+    "plugins\/porkfolio\/core\/class\/porkfolio.class.php": {
         "Somme": "Somme",
         "Dernière Opération": "Dernière Opération",
         "Objectif": "Objectif",

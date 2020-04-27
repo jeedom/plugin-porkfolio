@@ -1,5 +1,5 @@
 {
-    "plugin_info\/configuration.php": {
+    "plugins\/porkfolio\/plugin_info\/configuration.php": {
         "Client ID : ": "Kunden-ID:",
         "Client Secret : ": "Geheimer Kunde:",
         "Username : ": "Benutzername:",
@@ -7,62 +7,68 @@
         "Etes-vous sûr de vouloir installer\/mettre à jour le fichier de config ? ": "Möchten Sie die Konfigurationsdatei wirklich installieren \/ aktualisieren?",
         "Création \/ Mise à jour du fichier de config": "Erstellung \/ Aktualisierung der Konfigurationsdatei"
     },
-    "desktop\/modal\/couleurnez.porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/modal\/couleurnez.porkfolio.php": {
         "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "Keine Ausrüstungsübereinstimmungen: Sie müssen die Ausrüstung (neu) registrieren",
         "L\\'id de l\\'équipement ne peut etre vide : ": "Die Geräte-ID darf nicht leer sein:"
     },
-    "desktop\/modal\/update.porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/modal\/update.porkfolio.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
         "Pause": "Pause",
-        "Rechercher": "Suche"
+        "Rechercher": "Suchen nach"
     },
-    "desktop\/modal\/objectif.porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/modal\/retraitdepot.porkfolio.php": {
         "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "Keine Ausrüstungsübereinstimmungen: Sie müssen die Ausrüstung (neu) registrieren",
         "L\\'id de l\\'équipement ne peut etre vide : ": "Die Geräte-ID darf nicht leer sein:"
     },
-    "desktop\/modal\/retraitdepot.porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/modal\/objectif.porkfolio.php": {
         "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "Keine Ausrüstungsübereinstimmungen: Sie müssen die Ausrüstung (neu) registrieren",
         "L\\'id de l\\'équipement ne peut etre vide : ": "Die Geräte-ID darf nicht leer sein:"
     },
-    "desktop\/js\/porkfolio.js": {
-        "Historiser": "historisieren",
-        "Tester": "Test"
-    },
-    "desktop\/php\/porkfolio.php": {
+    "plugins\/porkfolio\/desktop\/php\/porkfolio.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
-        "Ajouter un porkfolio": "Fügen Sie ein Schweinefleischportfolio hinzu",
-        "Rechercher": "Suche",
-        "Mes porkfolios": "Meine Schweinefleischmappen",
-        "Sauvegarder": "speichern",
-        "Supprimer": "Entfernen",
+        "Ajouter un porkfolio": "",
+        "Rechercher": "Suchen nach",
+        "Mes porkfolios": "",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
         "Configuration avancée": "Erweiterte Konfiguration",
         "Dupliquer": "Duplikat",
-        "Equipement": "Ausrüstung",
+        "Equipement": "Gerät",
         "Commandes": "Befehle",
-        "Nom de l'équipement porkfolio": "Gerätename Schweineportfolio",
+        "Nom de l'équipement porkfolio": "",
         "Objet parent": "Übergeordnetes Objekt",
-        "Aucun": "keine",
+        "Aucun": "Ohne",
         "Catégorie": "Kategorie",
-        "Activer": "activate",
-        "Visible": "sichtbar",
+        "Activer": "Aktivieren",
+        "Visible": "Sichtbar",
         "Configuration": "Konfiguration",
         "Numéro": "Anzahl",
-        "Numéro de votre porkfolio si plusieurs, rien si vous en avez qu'un": "Nummer Ihres Schweinefleischportfolios, wenn mehrere, nichts, wenn Sie nur eine haben",
-        "Informations": "Informationen",
-        "Porkfolio Id": "Porkfolio Id",
-        "Porkfolio Name": "Porkfolio Name",
-        "Porkfolio Serial": "Porkfolio Serial",
-        "Porkfolio Mac": "Porkfolio Mac",
-        "Ajouter une commande": "Bestellung hinzufügen",
+        "Numéro de votre porkfolio si plusieurs, rien si vous en avez qu'un": "",
+        "Informations": "Information",
+        "Porkfolio Id": "",
+        "Porkfolio Name": "",
+        "Porkfolio Serial": "",
+        "Porkfolio Mac": "",
+        "Ajouter une commande": "Kommando hinzufügen",
         "Nom": "Name",
         "Options": "Optionen",
         "Action": "Aktion"
     },
-    "core\/ajax\/porkfolio.ajax.php": {
+    "plugins\/porkfolio\/desktop\/js\/porkfolio.js": {
+        "Historiser": "Chronik",
+        "Tester": "Test"
+    },
+    "plugins\/porkfolio\/core\/ajax\/porkfolio.ajax.php": {
         "Aucune methode correspondante à : ": "Keine Methode entsprechend:"
     },
-    "core\/class\/porkfolio.class.php": {
-        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": "Plugin zum Senden und Empfangen von Informationen von Ihrem Pokfolio",
-        "Aucune": "Ohne"
+    "plugins\/porkfolio\/core\/class\/porkfolio.class.php": {
+        "Somme": "Summe",
+        "Dernière Opération": "",
+        "Objectif": "",
+        "Nez": "",
+        "Date dépot": "",
+        "Date mouvement": "",
+        "Date retournement": "",
+        "Rafraichir": "Aktualisieren"
     }
 }
