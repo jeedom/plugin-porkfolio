@@ -1,85 +1,85 @@
- 
+Portafolio 
 =========
 
-escripción 
+Descripción 
 -----------
 
+Este complemento le permite controlar y tener toda la información sobre su
+Alcancía Portafolio.
 
-.
+![Portafolio screenshot1](../images/porkfolio_screenshot1.jpg)
+![Portafolio screenshot10](../images/porkfolio_screenshot10.jpg)
+![Portafolio screenshot9](../images/porkfolio_screenshot9.jpg)
+![Portafolio screenshot8](../images/porkfolio_screenshot8.jpg)
 
-![ screenshot1](../images/_screenshot1.jpg)
-![ screenshot10](../images/_screenshot10.jpg)
-![ screenshot9](../images/_screenshot9.jpg)
-![ screenshot8](../images/_screenshot8.jpg)
-
-onfiguración 
+Configuración 
 -------------
 
-### onfiguración del complemento Jeedom : 
+### Configuración del complemento Jeedom : 
 
-****
+**Instalación / Creación**
 
 Para usar el complemento, debe descargar, instalar y
 activarlo como cualquier complemento de Jeedom.
 
-espués de eso, deberá ingresar sus credenciales (guiño + cuenta
+Después de eso, deberá ingresar sus credenciales (guiño + cuenta
 api):
 
-![ screenshot7](../images/_screenshot7.jpg)
+![Portafolio screenshot7](../images/porkfolio_screenshot7.jpg)
 
-
- :
+Vaya al menú Complementos / Finanzas, encontrará el complemento
+Portafolio :
 
 Llegará a la página que enumerará su equipo (puede
+tener varios Portafolio) y que te permitirán crearlos
 
+![Portafolio screenshot6](../images/porkfolio_screenshot6.jpg)
 
-![ screenshot6](../images/_screenshot6.jpg)
+Haga clic en el botón A las lasgregar :
 
-Haga clic en el botón A lasgregar :
+Luego llegará a la página de configuración de su pigfolio:
 
-:
-
-![ screenshot5](../images/_screenshot5.jpg)
+![Portafolio screenshot5](../images/porkfolio_screenshot5.jpg)
 
 En esta página encontrarás varias secciones. :
 
 -   **Principal**
 
 En esta sección encontrará todas las configuraciones de jeedom. Un
-
+conoce el nombre de tu equipo, el objeto que deseas
 asócielo, la categoría (preferiblemente multimedia), si lo desea
 el equipo está activo o no, y finalmente si quieres que esté
 visible en el tablero.
 
--   **onfiguración**
+-   **Configuration**
 
 Esta sección es útil si y solo si tiene varias
-
+carne de cerdo. Deberá ingresar el número de equipo (1, 2 o 3 por
 ejemplo). Puede dejar este campo en blanco si solo tiene uno
-.
+Portafolio que seguramente será tu caso.
 
--   **omandos**
+-   **Commandes**
 
 No tienes nada que hacer en esta sección.. Se crearán pedidos
-automáticamente.
+automatiquement.
 
 -   Refrescar: botón para actualizar el widget si es necesario
 
--    : 
+-   Fecha de presentación : Fecha de la última operación
 
--    : 
-    
+-   Fecha de movimiento : Fecha de la última vez que un movimiento fue
+    detectado
 
--    : 
+-   Fecha de cambio : Fecha de la última vez que la cartera de cerdo fue
     devuelto
 
--    : 
+-   Última operación : Importe de la última transacción.
 
--    : 
+-   Nariz : Color de la nariz
 
--    : 
+-   Objetivo : Cantidad de tu objetivo
 
--   Suma : 
+-   Suma : Suma actualmente en la cartera
 
 ...
 
@@ -90,47 +90,47 @@ Las informaciones
 
 ![dashboardinfo](../images/dashboardinfo.jpg)
 
--   A las : . 
-    
-    
+-   A las las : Cabeza de cerdo que puede cambiar el estado de ánimo. Dejando el raton
+    sobre su cabeza te dirá cuándo fue la última vez que se mudó
+    así como la última vez que fue devuelto
 
--    : 
+-   B : Botón A las lasctualizar para solicitar valores del servidor
 
--    : . 
-    
+-   C : Importe de la última transacción.. A las lasl dejar el mouse sobre
+    tendrá la fecha de la última operación
 
--    : 
+-   D : Cantidad de tu objetivo
 
--   E : 
+-   E : Color de nariz de tu carne de cerdo
 
--    : 
+-   F : Barra de progreso para lograr tu objetivo
 
--    : 
+-   G : Suma actual en tu carne de cerdo
 
 ...
 
 Las acciones 
 -----------
 
-###  : 
+### A las lascciones accesibles en el tablero : 
 
- :
+Hay varias acciones disponibles en el tablero :
 
 ![dashboardactions](../images/dashboardactions.jpg)
 
--   A las : 
-    
+-   A las las : A las lasl hacer clic en el boleto puede depositar o retirar un
+    cantidad de dinero
 
-![ screenshot2](../images/_screenshot2.jpg)
+![Portafolio screenshot2](../images/porkfolio_screenshot2.jpg)
 
--    : 
+-   B : A las lasl hacer clic en la bandera puedes cambiar tu objetivo
 
-![ screenshot3](../images/_screenshot3.jpg)
+![Portafolio screenshot3](../images/porkfolio_screenshot3.jpg)
 
--    : 
-    
+-   C : A las lasl hacer clic en el pincel, puede cambiar el color del
+    nariz de tu cerdo
 
-![ screenshot4](../images/_screenshot4.jpg)
+![Portafolio screenshot4](../images/porkfolio_screenshot4.jpg)
 
 ...
 
@@ -138,7 +138,7 @@ Preguntas frecuentes
 ---
 
 El sistema recupera información cada hora.. Usted puede
-haga clic en el comando A lasctualizar para actualizar manualmente.
+haga clic en el comando A las lasctualizar para actualizar manualmente.
 
-
+Asegúrese de haber creado el archivo de configuración guardando su información en
 la configuración general del complemento.

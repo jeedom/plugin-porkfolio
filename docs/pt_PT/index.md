@@ -1,144 +1,144 @@
- 
+Porkfolio 
 =========
 
-escrição 
+Descrição 
 -----------
 
+Este plugin permite que você controle e tenha todas as informações sobre o seu
+Mealheiro Porkfolio.
 
-.
+![porkfolio screenshot1](../images/porkfolio_screenshot1.jpg)
+![porkfolio screenshot10](../images/porkfolio_screenshot10.jpg)
+![porkfolio screenshot9](../images/porkfolio_screenshot9.jpg)
+![porkfolio screenshot8](../images/porkfolio_screenshot8.jpg)
 
-![ screenshot1](../images/_screenshot1.jpg)
-![ screenshot10](../images/_screenshot10.jpg)
-![ screenshot9](../images/_screenshot9.jpg)
-![ screenshot8](../images/_screenshot8.jpg)
-
-onfiguração 
+Configuração 
 -------------
 
-###  : 
+### Configuração do plugin Jeedom : 
 
-****
+**Instalação / Criação**
 
+Para usar o plug-in, você precisa baixar, instalar e
+ativá-lo como qualquer plugin Jeedom.
 
-.
+Depois disso, você precisará inserir suas credenciais (piscadela + conta
+api):
 
+![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
 
-:
+Vá para o menu Plugins / Finanças, você encontrará o plugin
+porkfolio :
 
-![ screenshot7](../images/_screenshot7.jpg)
+Você chegará à página que listará seu equipamento (você pode
+tem vários Porkfolio) e que permitirá que você os crie
 
+![porkfolio screenshot6](../images/porkfolio_screenshot6.jpg)
 
- :
+Clique no botão àdicionar :
 
+Você chegará à página de configuração do seu portfólio:
 
+![porkfolio screenshot5](../images/porkfolio_screenshot5.jpg)
 
+Nesta página você encontrará várias seções :
 
-![ screenshot6](../images/_screenshot6.jpg)
+-   **Geral**
 
- :
+Nesta seção, você encontrará todas as configurações de jeedom. Um
+saber o nome do seu equipamento, o objeto que você deseja
+associe-a à categoria (preferencialmente multimídia), se desejar
+o equipamento está ativo ou não e, finalmente, se você quiser
+visível no painel.
 
-:
+-   **Configuration**
 
-![ screenshot5](../images/_screenshot5.jpg)
+Esta seção é útil se e somente se você tiver vários
+porkfolio. Você precisará inserir o número do equipamento (1, 2 ou 3 por
+exemplo). Você pode deixar esse campo em branco se tiver apenas um
+porcofolio que certamente será o seu caso.
 
- :
+-   **Commandes**
 
--   **eral**
+Você não tem nada para fazer nesta seção. Os pedidos serão criados
+automatiquement.
 
+-   Legal: para atualizar o widget, se necessário
 
+-   Data de apresentação : Data da última operação
 
+-   Data do movimento : Data da última vez que um movimento foi
+    detectado
 
+-   Data da inversão : Data da última vez que o portfólio de porco foi
+    retornou
 
-.
+-   Última Operação : Valor da última transação
 
--   **onfiguração**
+-   Nariz : Cor do nariz
 
+-   Objetivo : Valor do seu objetivo
 
+-   Soma : Soma atualmente no portfólio
 
+…
 
-.
-
--   **omandos**
-
-. 
-.
-
--   Legal: 
-
--    : 
-
--    : 
-    
-
--    : 
-    
-
--    : 
-
--    : 
-
--    : 
-
--   Soma : 
-
-
-
- 
+Informação 
 ----------------
 
-###  : 
+### Informações no painel : 
 
 ![dashboardinfo](../images/dashboardinfo.jpg)
 
--   à : . 
-    
-    
+-   à : Cabeça de porco que pode mudar o humor. Deixando o mouse
+    em sua cabeça, ele lhe dirá quando ele se mudou pela última vez
+    bem como a última vez que ele foi devolvido
 
--    : 
+-   B : Botão àtualizar para solicitar valores do servidor
 
--    : . 
-    
+-   C : Valor da última transação. ào deixar o mouse sobre
+    você terá a data da última operação
 
--    : 
+-   D : Valor do seu objetivo
 
--    : 
+-   E : Cor do nariz do seu portfólio
 
--    : 
+-   F : Barra de progresso para alcançar seu objetivo
 
--    : 
+-   G : Soma atualmente no seu portfólio
 
+…
 
-
- 
+Acções 
 -----------
 
-###  : 
+### àções acessíveis no painel : 
 
- :
+Várias ações estão disponíveis no painel :
 
 ![dashboardactions](../images/dashboardactions.jpg)
 
--   à : 
-    
+-   à : ào clicar no bilhete, você pode depositar ou retirar um
+    soma de dinheiro
 
-![ screenshot2](../images/_screenshot2.jpg)
+![porkfolio screenshot2](../images/porkfolio_screenshot2.jpg)
 
--    : 
+-   B : ào clicar na bandeira, você pode alterar sua meta
 
-![ screenshot3](../images/_screenshot3.jpg)
+![porkfolio screenshot3](../images/porkfolio_screenshot3.jpg)
 
--    : 
-    
+-   C : ào clicar no pincel, você pode alterar a cor do
+    nariz do seu portfólio
 
-![ screenshot4](../images/_screenshot4.jpg)
+![porkfolio screenshot4](../images/porkfolio_screenshot4.jpg)
 
+…
 
-
- 
+Faq 
 ---
 
-. 
-.
+O sistema recupera informações a cada hora. Você pode
+clique no comando àtualizar para atualizar manualmente.
 
-
-.
+Verifique se você criou o arquivo de configuração salvando suas informações em
+a configuração geral do plugin.
