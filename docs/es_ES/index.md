@@ -31,11 +31,11 @@ Vaya al menú Complementos / Finanzas, encontrará el complemento
 Portafolio :
 
 Llegará a la página que enumerará su equipo (puede
-tener varios Portafolio) y que te permitirán crearlos
+tener varios Porkfolio) y que te permitirán crearlos
 
 ![Portafolio screenshot6](../images/porkfolio_screenshot6.jpg)
 
-Haga clic en el botón A las lasgregar :
+Haga clic en el botón Agregar :
 
 Luego llegará a la página de configuración de su pigfolio:
 
@@ -71,7 +71,7 @@ automatiquement.
     detectado
 
 -   Fecha de cambio : Fecha de la última vez que la cartera de cerdo fue
-    devuelto
+    retourné
 
 -   Última operación : Importe de la última transacción.
 
@@ -90,13 +90,13 @@ Las informaciones
 
 ![dashboardinfo](../images/dashboardinfo.jpg)
 
--   A las las : Cabeza de cerdo que puede cambiar el estado de ánimo. Dejando el raton
+-   A las : Cabeza de cerdo que puede cambiar el estado de ánimo. Dejando el raton
     sobre su cabeza te dirá cuándo fue la última vez que se mudó
     así como la última vez que fue devuelto
 
--   B : Botón A las lasctualizar para solicitar valores del servidor
+-   B : Botón Actualizar para solicitar valores del servidor
 
--   C : Importe de la última transacción.. A las lasl dejar el mouse sobre
+-   C : Importe de la última transacción.. Al dejar el mouse sobre
     tendrá la fecha de la última operación
 
 -   D : Cantidad de tu objetivo
@@ -112,22 +112,22 @@ Las informaciones
 Las acciones 
 -----------
 
-### A las lascciones accesibles en el tablero : 
+### Acciones accesibles en el tablero : 
 
 Hay varias acciones disponibles en el tablero :
 
 ![dashboardactions](../images/dashboardactions.jpg)
 
--   A las las : A las lasl hacer clic en el boleto puede depositar o retirar un
+-   A las : Al hacer clic en el boleto puede depositar o retirar un
     cantidad de dinero
 
 ![Portafolio screenshot2](../images/porkfolio_screenshot2.jpg)
 
--   B : A las lasl hacer clic en la bandera puedes cambiar tu objetivo
+-   B : Al hacer clic en la bandera puedes cambiar tu objetivo
 
 ![Portafolio screenshot3](../images/porkfolio_screenshot3.jpg)
 
--   C : A las lasl hacer clic en el pincel, puede cambiar el color del
+-   C : Al hacer clic en el pincel, puede cambiar el color del
     nariz de tu cerdo
 
 ![Portafolio screenshot4](../images/porkfolio_screenshot4.jpg)
@@ -138,7 +138,7 @@ Preguntas frecuentes
 ---
 
 El sistema recupera información cada hora.. Usted puede
-haga clic en el comando A las lasctualizar para actualizar manualmente.
+haga clic en el comando Actualizar para actualizar manualmente.
 
 Asegúrese de haber creado el archivo de configuración guardando su información en
 la configuración general del complemento.

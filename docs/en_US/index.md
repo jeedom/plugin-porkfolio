@@ -17,7 +17,7 @@ Setup
 
 ### Jeedom plugin configuration : 
 
-**Installation / VSreation**
+**Installation / Creation**
 
 In order to use the plugin, you need to download, install and
 activate it like any Jeedom plugin.
@@ -35,9 +35,9 @@ have several Porkfolio) and which will allow you to create them
 
 ![Porkfolio screenshot6](../images/porkfolio_screenshot6.jpg)
 
-Click on the Atdd button :
+Click on the Add button :
 
-You will then arrive on the configuration page of your Porkfolio:
+You will then arrive on the configuration page of your porkfolio:
 
 ![Porkfolio screenshot5](../images/porkfolio_screenshot5.jpg)
 
@@ -45,7 +45,7 @@ On this page you will find several sections :
 
 -   **Main**
 
-In this section you will find all jeedom configurations. AtT
+In this section you will find all jeedom configurations. AT
 know the name of your equipment, the object you want
 associate it, the category (preferably multimedia), if you want
 the equipment is active or not, and finally if you want it to be
@@ -71,15 +71,15 @@ automatiquement.
     detected
 
 -   Flip date : Date of the last time the Porkfolio was
-    return
+    retourné
 
--   Last Operation : Atmount of the last transaction
+-   Last Operation : Amount of the last transaction
 
 -   Nose : Nose color
 
--   Goal : Atmount of your goal
+-   Goal : Amount of your goal
 
--   Sum : Sum currently in the Porkfolio
+-   Sum : Sum currently in the porkfolio
 
 …
 
@@ -96,23 +96,23 @@ Information
 
 -   B : Refresh button to request values from the server
 
--   VS : Atmount of the last transaction. By leaving the mouse over
+-   VS : Amount of the last transaction. By leaving the mouse over
     you will have the date of the last operation
 
--   D : Atmount of your goal
+-   D : Amount of your goal
 
--   E : Nose color of your Porkfolio
+-   E : Nose color of your porkfolio
 
 -   F : Progress bar in achieving your goal
 
--   G : Sum currently in your Porkfolio
+-   G : Sum currently in your porkfolio
 
 …
 
 The actions 
 -----------
 
-### Atctions accessible on the dashboard : 
+### Actions accessible on the dashboard : 
 
 Several actions are available on the dashboard :
 
@@ -128,7 +128,7 @@ Several actions are available on the dashboard :
 ![Porkfolio screenshot3](../images/porkfolio_screenshot3.jpg)
 
 -   VS : By clicking on the brush you can change the color of the
-    nose of your Porkfolio
+    nose of your porkfolio
 
 ![Porkfolio screenshot4](../images/porkfolio_screenshot4.jpg)
 

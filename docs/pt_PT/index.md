@@ -7,10 +7,10 @@ Descrição
 Este plugin permite que você controle e tenha todas as informações sobre o seu
 Mealheiro Porkfolio.
 
-![porkfolio screenshot1](../images/porkfolio_screenshot1.jpg)
-![porkfolio screenshot10](../images/porkfolio_screenshot10.jpg)
-![porkfolio screenshot9](../images/porkfolio_screenshot9.jpg)
-![porkfolio screenshot8](../images/porkfolio_screenshot8.jpg)
+![Porkfolio screenshot1](../images/porkfolio_screenshot1.jpg)
+![Porkfolio screenshot10](../images/porkfolio_screenshot10.jpg)
+![Porkfolio screenshot9](../images/porkfolio_screenshot9.jpg)
+![Porkfolio screenshot8](../images/porkfolio_screenshot8.jpg)
 
 Configuração 
 -------------
@@ -25,21 +25,21 @@ ativá-lo como qualquer plugin Jeedom.
 Depois disso, você precisará inserir suas credenciais (piscadela + conta
 api):
 
-![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
+![Porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
 
 Vá para o menu Plugins / Finanças, você encontrará o plugin
-porkfolio :
+Porkfolio :
 
 Você chegará à página que listará seu equipamento (você pode
 tem vários Porkfolio) e que permitirá que você os crie
 
-![porkfolio screenshot6](../images/porkfolio_screenshot6.jpg)
+![Porkfolio screenshot6](../images/porkfolio_screenshot6.jpg)
 
-Clique no botão àdicionar :
+Clique no botão Adicionar :
 
 Você chegará à página de configuração do seu portfólio:
 
-![porkfolio screenshot5](../images/porkfolio_screenshot5.jpg)
+![Porkfolio screenshot5](../images/porkfolio_screenshot5.jpg)
 
 Nesta página você encontrará várias seções :
 
@@ -71,7 +71,7 @@ automatiquement.
     detectado
 
 -   Data da inversão : Data da última vez que o portfólio de porco foi
-    retornou
+    retourné
 
 -   Última Operação : Valor da última transação
 
@@ -94,9 +94,9 @@ Informação
     em sua cabeça, ele lhe dirá quando ele se mudou pela última vez
     bem como a última vez que ele foi devolvido
 
--   B : Botão àtualizar para solicitar valores do servidor
+-   B : Botão Atualizar para solicitar valores do servidor
 
--   C : Valor da última transação. ào deixar o mouse sobre
+-   C : Valor da última transação. Ao deixar o mouse sobre
     você terá a data da última operação
 
 -   D : Valor do seu objetivo
@@ -112,25 +112,25 @@ Informação
 Acções 
 -----------
 
-### àções acessíveis no painel : 
+### Ações acessíveis no painel : 
 
 Várias ações estão disponíveis no painel :
 
 ![dashboardactions](../images/dashboardactions.jpg)
 
--   à : ào clicar no bilhete, você pode depositar ou retirar um
+-   à : Ao clicar no bilhete, você pode depositar ou retirar um
     soma de dinheiro
 
-![porkfolio screenshot2](../images/porkfolio_screenshot2.jpg)
+![Porkfolio screenshot2](../images/porkfolio_screenshot2.jpg)
 
--   B : ào clicar na bandeira, você pode alterar sua meta
+-   B : Ao clicar na bandeira, você pode alterar sua meta
 
-![porkfolio screenshot3](../images/porkfolio_screenshot3.jpg)
+![Porkfolio screenshot3](../images/porkfolio_screenshot3.jpg)
 
--   C : ào clicar no pincel, você pode alterar a cor do
+-   C : Ao clicar no pincel, você pode alterar a cor do
     nariz do seu portfólio
 
-![porkfolio screenshot4](../images/porkfolio_screenshot4.jpg)
+![Porkfolio screenshot4](../images/porkfolio_screenshot4.jpg)
 
 …
 
@@ -138,7 +138,7 @@ Faq
 ---
 
 O sistema recupera informações a cada hora. Você pode
-clique no comando àtualizar para atualizar manualmente.
+clique no comando Atualizar para atualizar manualmente.
 
 Verifique se você criou o arquivo de configuração salvando suas informações em
 a configuração geral do plugin.
