@@ -43,22 +43,22 @@ Sie gelangen dann auf die Konfigurationsseite Ihres Schweinefleischportfolios:
 
 Auf dieser Seite finden Sie mehrere Abschnitte :
 
--   **Allgemein**
+-   **G.énéral**
 
-In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. Bis.
+In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. A
 Kennen Sie den Namen Ihrer Ausrüstung, das gewünschte Objekt
 Ordnen Sie es der Kategorie (vorzugsweise Multimedia) zu, wenn Sie möchten
 Das Gerät ist aktiv oder nicht, und schließlich, wenn Sie es möchten
 sichtbar auf dem Armaturenbrett.
 
--   **Configuration**
+-   **Konfiguration**
 
 Dieser Abschnitt ist genau dann nützlich, wenn Sie mehrere haben
 Schweinefleisch Portfolio. Sie müssen die Gerätenummer eingeben (1, 2 oder 3 von
 Beispiel). Sie können dieses Feld leer lassen, wenn Sie nur eines haben
 Schweinefleisch Portfolio, das sicherlich Ihr Fall sein wird.
 
--   **Commandes**
+-   **Befehle**
 
 In diesem Abschnitt haben Sie nichts zu tun. Bestellungen werden erstellt
 automatiquement.

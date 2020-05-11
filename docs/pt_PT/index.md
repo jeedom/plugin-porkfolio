@@ -43,7 +43,7 @@ Você chegará à página de configuração do seu portfólio:
 
 Nesta página você encontrará várias seções :
 
--   **Geral**
+-   **Général**
 
 Nesta seção, você encontrará todas as configurações de jeedom. Um
 saber o nome do seu equipamento, o objeto que você deseja
@@ -51,14 +51,14 @@ associe-a à categoria (preferencialmente multimídia), se desejar
 o equipamento está ativo ou não e, finalmente, se você quiser
 visível no painel.
 
--   **Configuration**
+-   **Configuração**
 
 Esta seção é útil se e somente se você tiver vários
 porkfolio. Você precisará inserir o número do equipamento (1, 2 ou 3 por
 exemplo). Você pode deixar esse campo em branco se tiver apenas um
 porcofolio que certamente será o seu caso.
 
--   **Commandes**
+-   **Comandos**
 
 Você não tem nada para fazer nesta seção. Os pedidos serão criados
 automatiquement.

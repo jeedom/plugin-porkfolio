@@ -5,7 +5,7 @@ Descripción
 -----------
 
 Este complemento le permite controlar y tener toda la información sobre su
-Alcancía Portafolio.
+Alcancía Porkfolio.
 
 ![Portafolio screenshot1](../images/porkfolio_screenshot1.jpg)
 ![Portafolio screenshot10](../images/porkfolio_screenshot10.jpg)
@@ -41,9 +41,9 @@ Luego llegará a la página de configuración de su pigfolio:
 
 ![Portafolio screenshot5](../images/porkfolio_screenshot5.jpg)
 
-En esta página encontrarás varias secciones. :
+En esta página encontrarás varias secciones :
 
--   **Principal**
+-   **Général**
 
 En esta sección encontrará todas las configuraciones de jeedom. Un
 conoce el nombre de tu equipo, el objeto que deseas
@@ -51,16 +51,16 @@ asócielo, la categoría (preferiblemente multimedia), si lo desea
 el equipo está activo o no, y finalmente si quieres que esté
 visible en el tablero.
 
--   **Configuration**
+-   **Configuración**
 
 Esta sección es útil si y solo si tiene varias
 carne de cerdo. Deberá ingresar el número de equipo (1, 2 o 3 por
 ejemplo). Puede dejar este campo en blanco si solo tiene uno
 Portafolio que seguramente será tu caso.
 
--   **Commandes**
+-   **Comandos**
 
-No tienes nada que hacer en esta sección.. Se crearán pedidos
+No tienes nada que hacer en esta sección. Se crearán pedidos
 automatiquement.
 
 -   Refrescar: botón para actualizar el widget si es necesario
@@ -73,7 +73,7 @@ automatiquement.
 -   Fecha de cambio : Fecha de la última vez que la cartera de cerdo fue
     retourné
 
--   Última operación : Importe de la última transacción.
+-   Última operación : Importe de la última transacción
 
 -   Nariz : Color de la nariz
 
@@ -96,7 +96,7 @@ Las informaciones
 
 -   B : Botón Actualizar para solicitar valores del servidor
 
--   C : Importe de la última transacción.. Al dejar el mouse sobre
+-   C : Importe de la última transacción. Al dejar el mouse sobre
     tendrá la fecha de la última operación
 
 -   D : Cantidad de tu objetivo
@@ -137,7 +137,7 @@ Hay varias acciones disponibles en el tablero :
 Preguntas frecuentes 
 ---
 
-El sistema recupera información cada hora.. Usted puede
+El sistema recupera información cada hora. Usted puede
 haga clic en el comando Actualizar para actualizar manualmente.
 
 Asegúrese de haber creado el archivo de configuración guardando su información en

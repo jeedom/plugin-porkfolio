@@ -43,7 +43,7 @@ You will then arrive on the configuration page of your porkfolio:
 
 On this page you will find several sections :
 
--   **Main**
+-   **Général**
 
 In this section you will find all jeedom configurations. AT
 know the name of your equipment, the object you want
@@ -51,14 +51,14 @@ associate it, the category (preferably multimedia), if you want
 the equipment is active or not, and finally if you want it to be
 visible on the dashboard.
 
--   **Configuration**
+-   **Setup**
 
 This section is useful if and only if you have several
 porkfolio. You will need to enter the equipment number (1, 2 or 3 by
 example). You can leave this field blank if you have only one
-Porkfolio which will surely be your case.
+porkfolio which will surely be your case.
 
--   **Commandes**
+-   **Commands**
 
 You have nothing to do in this section. Orders will be created
 automatiquement.
@@ -70,7 +70,7 @@ automatiquement.
 -   Movement date : Date of the last time a movement was
     detected
 
--   Flip date : Date of the last time the Porkfolio was
+-   Flip date : Date of the last time the porkfolio was
     retourné
 
 -   Last Operation : Amount of the last transaction
