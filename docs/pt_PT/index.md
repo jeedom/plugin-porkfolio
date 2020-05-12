@@ -1,144 +1,95 @@
-Porkfolio 
-=========
+# Plugin Porkfolio 
 
-Descrição 
------------
+Este plugin permite que você controle e tenha todas as informações do seu mealheiro Porkfolio.
 
-Este plugin permite que você controle e tenha todas as informações sobre o seu
-Mealheiro Porkfolio.
+![porkfolio screenshot1](../images/porkfolio_screenshot1.jpg)
+![porkfolio screenshot10](../images/porkfolio_screenshot10.jpg)
+![porkfolio screenshot9](../images/porkfolio_screenshot9.jpg)
+![porkfolio screenshot8](../images/porkfolio_screenshot8.jpg)
 
-![Porkfolio screenshot1](../images/porkfolio_screenshot1.jpg)
-![Porkfolio screenshot10](../images/porkfolio_screenshot10.jpg)
-![Porkfolio screenshot9](../images/porkfolio_screenshot9.jpg)
-![Porkfolio screenshot8](../images/porkfolio_screenshot8.jpg)
+# Configuração 
 
-Configuração 
--------------
-
-### Configuração do plugin Jeedom : 
+## Configuração do plugin Jeedom : 
 
 **Instalação / Criação**
 
-Para usar o plug-in, você precisa baixar, instalar e
-ativá-lo como qualquer plugin Jeedom.
+Para usar o plug-in, você deve fazer o download, instalar e ativá-lo como qualquer plug-in Jeedom.
 
-Depois disso, você precisará inserir suas credenciais (piscadela + conta
-api):
+Depois disso, você precisará inserir suas credenciais (conta de piscadela + API):
 
-![Porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
+![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
 
-Vá para o menu Plugins / Finanças, você encontrará o plugin
-Porkfolio :
+Vá ao menu Plugins / Finanças, você encontrará o plugin porkfolio :
 
-Você chegará à página que listará seu equipamento (você pode
-tem vários Porkfolio) e que permitirá que você os crie
+Você chegará à página que listará seu equipamento (você pode ter vários Porkfolio) e que permitirá criar algumas
 
-![Porkfolio screenshot6](../images/porkfolio_screenshot6.jpg)
+![porkfolio screenshot6](../images/porkfolio_screenshot6.jpg)
 
 Clique no botão Adicionar :
 
 Você chegará à página de configuração do seu portfólio:
 
-![Porkfolio screenshot5](../images/porkfolio_screenshot5.jpg)
+![porkfolio screenshot5](../images/porkfolio_screenshot5.jpg)
 
 Nesta página você encontrará várias seções :
 
--   **Général**
+**Général**
 
-Nesta seção, você encontrará todas as configurações de jeedom. Um
-saber o nome do seu equipamento, o objeto que você deseja
-associe-a à categoria (preferencialmente multimídia), se desejar
-o equipamento está ativo ou não e, finalmente, se você quiser
-visível no painel.
+Nesta seção, você encontrará todas as configurações do jeedom. Ou seja, o nome do seu equipamento, o objeto com o qual você deseja associá-lo, a categoria (de preferência multimídia), se você deseja que o equipamento esteja ativo ou não e, finalmente, se você deseja que ele fique visível na tela. painel de controle.
 
--   **Configuração**
+**Configuração**
 
-Esta seção é útil se e somente se você tiver vários
-porkfolio. Você precisará inserir o número do equipamento (1, 2 ou 3 por
-exemplo). Você pode deixar esse campo em branco se tiver apenas um
-porcofolio que certamente será o seu caso.
+Esta seção é útil se e somente se você tiver vários produtos. Você precisará inserir o número do equipamento (1, 2 ou 3, por exemplo). Você pode deixar esse campo vazio se tiver apenas um portfólio de porco, o que certamente será o seu caso.
 
--   **Comandos**
+**Comandos**
 
-Você não tem nada para fazer nesta seção. Os pedidos serão criados
-automatiquement.
+Você não tem nada para fazer nesta seção. Os pedidos serão criados automaticamente.
 
 -   Legal: para atualizar o widget, se necessário
-
 -   Data de apresentação : Data da última operação
-
--   Data do movimento : Data da última vez que um movimento foi
-    detectado
-
--   Data da inversão : Data da última vez que o portfólio de porco foi
-    retourné
-
+-   Data do movimento : Data da última vez que um movimento foi detectado
+-   Data da inversão : Data da última vez em que o portfólio foi devolvido
 -   Última Operação : Valor da última transação
-
 -   Nariz : Cor do nariz
-
 -   Objetivo : Valor do seu objetivo
-
 -   Soma : Soma atualmente no portfólio
 
-…
+# Informação 
 
-Informação 
-----------------
-
-### Informações no painel : 
+## Informações no painel : 
 
 ![dashboardinfo](../images/dashboardinfo.jpg)
 
--   à : Cabeça de porco que pode mudar o humor. Deixando o mouse
-    em sua cabeça, ele lhe dirá quando ele se mudou pela última vez
-    bem como a última vez que ele foi devolvido
-
+-   à : Cabeça de porco que pode mudar o humor. Ao deixar o mouse na cabeça, ele informará quando ele se moveu pela última vez, bem como a última vez em que foi entregue
 -   B : Botão Atualizar para solicitar valores do servidor
-
--   C : Valor da última transação. Ao deixar o mouse sobre
-    você terá a data da última operação
-
+-   C : Valor da última transação. Ao deixar o mouse nele, você terá a data da última operação
 -   D : Valor do seu objetivo
-
 -   E : Cor do nariz do seu portfólio
-
 -   F : Barra de progresso para alcançar seu objetivo
-
 -   G : Soma atualmente no seu portfólio
 
-…
+# Acções 
 
-Acções 
------------
-
-### Ações acessíveis no painel : 
+## Ações acessíveis no painel : 
 
 Várias ações estão disponíveis no painel :
 
 ![dashboardactions](../images/dashboardactions.jpg)
 
--   à : Ao clicar no bilhete, você pode depositar ou retirar um
-    soma de dinheiro
+-   à : Ao clicar no bilhete, você pode depositar ou retirar uma quantia em dinheiro
 
-![Porkfolio screenshot2](../images/porkfolio_screenshot2.jpg)
+![porkfolio screenshot2](../images/porkfolio_screenshot2.jpg)
 
 -   B : Ao clicar na bandeira, você pode alterar sua meta
 
-![Porkfolio screenshot3](../images/porkfolio_screenshot3.jpg)
+![porkfolio screenshot3](../images/porkfolio_screenshot3.jpg)
 
--   C : Ao clicar no pincel, você pode alterar a cor do
-    nariz do seu portfólio
+-   C : Ao clicar no pincel, você pode alterar a cor do nariz do seu portfólio
 
-![Porkfolio screenshot4](../images/porkfolio_screenshot4.jpg)
+![porkfolio screenshot4](../images/porkfolio_screenshot4.jpg)
 
-…
+# Faq 
 
-Faq 
----
+O sistema recupera informações a cada hora. Você pode clicar no comando Atualizar para atualizar manualmente.
 
-O sistema recupera informações a cada hora. Você pode
-clique no comando Atualizar para atualizar manualmente.
-
-Verifique se você criou o arquivo de configuração salvando suas informações em
-a configuração geral do plugin.
+Certifique-se de ter criado o arquivo de configuração salvando suas informações na configuração geral do plugin.

@@ -1,144 +1,95 @@
-Schweinefleisch Portfolio 
-=========
+# Porkfolio Plugin 
 
-Beschreibung 
------------
+Mit diesem Plugin können Sie alle Informationen von Ihrem Porkfolio-Sparschwein steuern und abrufen.
 
-Mit diesem Plugin können Sie alle Informationen über Ihre steuern und haben
-Schweinefleisch Sparschwein.
+![porkfolio screenshot1](../images/porkfolio_screenshot1.jpg)
+![porkfolio screenshot10](../images/porkfolio_screenshot10.jpg)
+![porkfolio screenshot9](../images/porkfolio_screenshot9.jpg)
+![porkfolio screenshot8](../images/porkfolio_screenshot8.jpg)
 
-![Schweinefleisch Portfolio screenshot1](../images/porkfolio_screenshot1.jpg)
-![Schweinefleisch Portfolio screenshot10](../images/porkfolio_screenshot10.jpg)
-![Schweinefleisch Portfolio screenshot9](../images/porkfolio_screenshot9.jpg)
-![Schweinefleisch Portfolio screenshot8](../images/porkfolio_screenshot8.jpg)
+# Konfiguration 
 
-Konfiguration 
--------------
-
-### Jeedom Plugin Konfiguration : 
+## Jeedom Plugin Konfiguration : 
 
 **Installation / Erstellung**
 
-Um das Plugin nutzen zu können, müssen Sie herunterladen und installieren
-aktiviere es wie jedes Jeedom Plugin.
+Um das Plugin verwenden zu können, müssen Sie es wie jedes Jeedom-Plugin herunterladen, installieren und aktivieren.
 
-Danach müssen Sie Ihre Anmeldeinformationen eingeben (Augenzwinkern + Konto
-api):
+Anschließend müssen Sie Ihre Anmeldeinformationen eingeben (Wink-Konto + API):
 
-![Schweinefleisch Portfolio screenshot7](../images/porkfolio_screenshot7.jpg)
+![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
 
-Gehen Sie zum Menü Plugins / Finanzen, dort finden Sie das Plugin
-Schweinefleisch Portfolio :
+Gehen Sie zum Menü Plugins / Finanzen, dort finden Sie das Plugin für Schweinefleischportfolios :
 
-Sie gelangen auf die Seite, auf der Ihre Ausrüstung aufgelistet ist (Sie können
-haben mehrere Porkfolio) und mit denen Sie sie erstellen können
+Sie gelangen auf die Seite, auf der Ihre Ausrüstung aufgelistet ist (Sie können mehrere Porkfolios haben) und auf der Sie einige erstellen können
 
-![Schweinefleisch Portfolio screenshot6](../images/porkfolio_screenshot6.jpg)
+![porkfolio screenshot6](../images/porkfolio_screenshot6.jpg)
 
 Klicken Sie auf die Schaltfläche Hinzufügen :
 
 Sie gelangen dann auf die Konfigurationsseite Ihres Schweinefleischportfolios:
 
-![Schweinefleisch Portfolio screenshot5](../images/porkfolio_screenshot5.jpg)
+![porkfolio screenshot5](../images/porkfolio_screenshot5.jpg)
 
 Auf dieser Seite finden Sie mehrere Abschnitte :
 
--   **G.énéral**
+**G.énéral**
 
-In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. A
-Kennen Sie den Namen Ihrer Ausrüstung, das gewünschte Objekt
-Ordnen Sie es der Kategorie (vorzugsweise Multimedia) zu, wenn Sie möchten
-Das Gerät ist aktiv oder nicht, und schließlich, wenn Sie es möchten
-sichtbar auf dem Armaturenbrett.
+In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. Nämlich den Namen Ihres Geräts, das Objekt, dem Sie es zuordnen möchten, die Kategorie (vorzugsweise Multimedia), ob das Gerät aktiv sein soll oder nicht, und schließlich, ob es auf dem Gerät sichtbar sein soll Dashboard.
 
--   **Konfiguration**
+**Konfiguration**
 
-Dieser Abschnitt ist genau dann nützlich, wenn Sie mehrere haben
-Schweinefleisch Portfolio. Sie müssen die Gerätenummer eingeben (1, 2 oder 3 von
-Beispiel). Sie können dieses Feld leer lassen, wenn Sie nur eines haben
-Schweinefleisch Portfolio, das sicherlich Ihr Fall sein wird.
+Dieser Abschnitt ist genau dann nützlich, wenn Sie mehrere Schweinefleischportfolios haben. Sie müssen die Gerätenummer eingeben (z. B. 1, 2 oder 3). Sie können dieses Feld leer lassen, wenn Sie nur ein Schweinefleischportfolio haben, was sicherlich Ihr Fall sein wird.
 
--   **Befehle**
+**Befehle**
 
-In diesem Abschnitt haben Sie nichts zu tun. Bestellungen werden erstellt
-automatiquement.
+In diesem Abschnitt haben Sie nichts zu tun. Bestellungen werden automatisch erstellt.
 
 -   Aktualisieren: Schaltfläche, um das Widget bei Bedarf zu aktualisieren
-
 -   Anmeldedatum : Datum der letzten Operation
-
--   Bewegungsdatum : Datum des letzten Males einer Bewegung war
-    erkannt
-
--   Datum umdrehen : Datum des letzten Males war das Schweinefleischportfolio
-    retourné
-
+-   Bewegungsdatum : Datum des letzten Erkennens einer Bewegung
+-   Datum umdrehen : Datum der letzten Rückgabe des Schweinefleischportfolios
 -   Letzte Operation : Betrag der letzten Transaktion
-
 -   Nase : Nasenfarbe
-
 -   Ziel : Betrag Ihres Ziels
-
 -   Summe : Summe derzeit im Schweinefleischportfolio
 
-…
+# Informationen 
 
-Informationen 
-----------------
-
-### Informationen auf dem Dashboard : 
+## Informationen auf dem Dashboard : 
 
 ![dashboardinfo](../images/dashboardinfo.jpg)
 
--   Bis : Schweinekopf, der die Stimmung verändern kann. Die Maus verlassen
-    Auf seinem Kopf wird er Ihnen sagen, wann er sich zuletzt bewegt hat
-    sowie das letzte Mal, als er zurückkam
-
+-   Bis : Schweinekopf, der die Stimmung verändern kann. Wenn er die Maus auf dem Kopf lässt, sagt er Ihnen, wann er sich zuletzt bewegt hat und wann er das letzte Mal umgedreht wurde
 -   B. : Schaltfläche "Aktualisieren", um Werte vom Server anzufordern
-
--   C. : Betrag der letzten Transaktion. Indem Sie die Maus darüber lassen
-    Sie haben das Datum der letzten Operation
-
+-   C. : Betrag der letzten Transaktion. Wenn Sie die Maus darauf lassen, erhalten Sie das Datum der letzten Operation
 -   D. : Betrag Ihres Ziels
-
 -   E. : Nasenfarbe Ihres Schweinefleischportfolios
-
 -   F. : Fortschrittsbalken beim Erreichen Ihres Ziels
-
 -   G. : Summe aktuell in Ihrem Schweinefleischportfolio
 
-…
+# Aktionen 
 
-Aktionen 
------------
-
-### Aktionen, auf die im Dashboard zugegriffen werden kann : 
+## Aktionen, auf die im Dashboard zugegriffen werden kann : 
 
 Im Dashboard stehen mehrere Aktionen zur Verfügung :
 
 ![dashboardactions](../images/dashboardactions.jpg)
 
--   Bis : Durch Klicken auf das Ticket können Sie eine Ein- oder Auszahlung vornehmen
-    Geldsumme
+-   Bis : Durch Klicken auf das Ticket können Sie einen Geldbetrag einzahlen oder abheben
 
-![Schweinefleisch Portfolio screenshot2](../images/porkfolio_screenshot2.jpg)
+![porkfolio screenshot2](../images/porkfolio_screenshot2.jpg)
 
 -   B. : Durch Klicken auf die Flagge können Sie Ihr Ziel ändern
 
-![Schweinefleisch Portfolio screenshot3](../images/porkfolio_screenshot3.jpg)
+![porkfolio screenshot3](../images/porkfolio_screenshot3.jpg)
 
--   C. : Durch Klicken auf den Pinsel können Sie die Farbe des ändern
-    Nase Ihres Schweineportfolios
+-   C. : Durch Klicken auf den Pinsel können Sie die Farbe der Nase Ihres Schweinefleischportfolios ändern
 
-![Schweinefleisch Portfolio screenshot4](../images/porkfolio_screenshot4.jpg)
+![porkfolio screenshot4](../images/porkfolio_screenshot4.jpg)
 
-…
+# Faq 
 
-Faq 
----
+Das System ruft stündlich Informationen ab. Sie können auf den Befehl Aktualisieren klicken, um manuell zu aktualisieren.
 
-Das System ruft stündlich Informationen ab. Du kannst
-Klicken Sie auf den Befehl Aktualisieren, um manuell zu aktualisieren.
-
-Stellen Sie sicher, dass Sie die Konfigurationsdatei erstellt haben, indem Sie Ihre Daten in speichern
-die allgemeine Konfiguration des Plugins.
+Stellen Sie sicher, dass Sie die Konfigurationsdatei erstellt haben, indem Sie Ihre Daten in der allgemeinen Konfiguration des Plugins speichern.
