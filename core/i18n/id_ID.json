@@ -1,6 +1,74 @@
 {
-    "plugins/porkfolio/plugin_info/info.xml": {
-        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": "Plugin untuk mengirim dan menerima informasi dari Pokfolio Anda",
-        "Aucune": "Tak ada"
+    "plugins\/porkfolio\/plugin_info\/configuration.php": {
+        "Client ID : ": "",
+        "Client Secret : ": "",
+        "Username : ": "",
+        "Mot de passe : ": "Password",
+        "Etes-vous sûr de vouloir installer\/mettre à jour le fichier de config ? ": "",
+        "Création \/ Mise à jour du fichier de config": ""
+    },
+    "plugins\/porkfolio\/desktop\/modal\/couleurnez.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "",
+        "L\\'id de l\\'équipement ne peut etre vide : ": ""
+    },
+    "plugins\/porkfolio\/desktop\/modal\/update.porkfolio.php": {
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
+        "Pause": "Berhenti Sebentar",
+        "Rechercher": "Pencarian"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/retraitdepot.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "",
+        "L\\'id de l\\'équipement ne peut etre vide : ": ""
+    },
+    "plugins\/porkfolio\/desktop\/modal\/objectif.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "",
+        "L\\'id de l\\'équipement ne peut etre vide : ": ""
+    },
+    "plugins\/porkfolio\/desktop\/php\/porkfolio.php": {
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
+        "Ajouter un porkfolio": "",
+        "Rechercher": "Pencarian",
+        "Mes porkfolios": "",
+        "Sauvegarder": "Menyimpan",
+        "Supprimer": "Menghapus",
+        "Configuration avancée": "Konfigurasi lanjutan",
+        "Dupliquer": "Duplikat",
+        "Equipement": "Peralatan",
+        "Commandes": "Perintah",
+        "Nom de l'équipement porkfolio": "",
+        "Objet parent": "Objek induk",
+        "Aucun": "Tak ada",
+        "Catégorie": "Kategori",
+        "Activer": "Mengaktifkan",
+        "Visible": "Terlihat",
+        "Configuration": "Konfigurasi",
+        "Numéro": "",
+        "Numéro de votre porkfolio si plusieurs, rien si vous en avez qu'un": "",
+        "Informations": "Informasi",
+        "Porkfolio Id": "",
+        "Porkfolio Name": "",
+        "Porkfolio Serial": "",
+        "Porkfolio Mac": "",
+        "Ajouter une commande": "Tambahan pesanan",
+        "Nom": "Nama",
+        "Options": "Pilihan",
+        "Action": "Tindakan"
+    },
+    "plugins\/porkfolio\/desktop\/js\/porkfolio.js": {
+        "Historiser": "Historicize",
+        "Tester": "Coba"
+    },
+    "plugins\/porkfolio\/core\/ajax\/porkfolio.ajax.php": {
+        "Aucune methode correspondante à : ": "Aucune methode correspondante à :"
+    },
+    "plugins\/porkfolio\/core\/class\/porkfolio.class.php": {
+        "Somme": "Jumlah",
+        "Dernière Opération": "",
+        "Objectif": "",
+        "Nez": "",
+        "Date dépot": "",
+        "Date mouvement": "",
+        "Date retournement": "",
+        "Rafraichir": "Dingin"
     }
 }

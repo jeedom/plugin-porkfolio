@@ -1,6 +1,74 @@
 {
-    "plugins/porkfolio/plugin_info/info.xml": {
-        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": "あなたのPokfolioからの情報を送受信するためのプラグイン",
-        "Aucune": "何でもありません"
+    "plugins\/porkfolio\/plugin_info\/configuration.php": {
+        "Client ID : ": "",
+        "Client Secret : ": "",
+        "Username : ": "",
+        "Mot de passe : ": "パスワード：",
+        "Etes-vous sûr de vouloir installer\/mettre à jour le fichier de config ? ": "",
+        "Création \/ Mise à jour du fichier de config": ""
+    },
+    "plugins\/porkfolio\/desktop\/modal\/couleurnez.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "",
+        "L\\'id de l\\'équipement ne peut etre vide : ": ""
+    },
+    "plugins\/porkfolio\/desktop\/modal\/update.porkfolio.php": {
+        "401 - Accès non autorisé": "401-不正アクセス",
+        "Pause": "休止",
+        "Rechercher": "検索"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/retraitdepot.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "",
+        "L\\'id de l\\'équipement ne peut etre vide : ": ""
+    },
+    "plugins\/porkfolio\/desktop\/modal\/objectif.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "",
+        "L\\'id de l\\'équipement ne peut etre vide : ": ""
+    },
+    "plugins\/porkfolio\/desktop\/php\/porkfolio.php": {
+        "401 - Accès non autorisé": "401-不正アクセス",
+        "Ajouter un porkfolio": "",
+        "Rechercher": "検索",
+        "Mes porkfolios": "",
+        "Sauvegarder": "セーブ",
+        "Supprimer": "取り除きます",
+        "Configuration avancée": "高度な構成",
+        "Dupliquer": "重複",
+        "Equipement": "設備",
+        "Commandes": "コマンド",
+        "Nom de l'équipement porkfolio": "",
+        "Objet parent": "親オブジェクト",
+        "Aucun": "何でもありません",
+        "Catégorie": "カテゴリ",
+        "Activer": "アクティブ",
+        "Visible": "目に見えます",
+        "Configuration": "コンフィギュレーション",
+        "Numéro": "",
+        "Numéro de votre porkfolio si plusieurs, rien si vous en avez qu'un": "",
+        "Informations": "情報",
+        "Porkfolio Id": "",
+        "Porkfolio Name": "",
+        "Porkfolio Serial": "",
+        "Porkfolio Mac": "",
+        "Ajouter une commande": "コマンドの追加",
+        "Nom": "表題",
+        "Options": "オプション",
+        "Action": "アクション"
+    },
+    "plugins\/porkfolio\/desktop\/js\/porkfolio.js": {
+        "Historiser": "Historicize",
+        "Tester": "テスト"
+    },
+    "plugins\/porkfolio\/core\/ajax\/porkfolio.ajax.php": {
+        "Aucune methode correspondante à : ": "以下に対応するメソッドはありません："
+    },
+    "plugins\/porkfolio\/core\/class\/porkfolio.class.php": {
+        "Somme": "サム",
+        "Dernière Opération": "",
+        "Objectif": "",
+        "Nez": "",
+        "Date dépot": "",
+        "Date mouvement": "",
+        "Date retournement": "",
+        "Rafraichir": "クール"
     }
 }

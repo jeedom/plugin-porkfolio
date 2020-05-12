@@ -1,6 +1,74 @@
 {
-    "plugins/porkfolio/plugin_info/info.xml": {
-        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": "Plugin zum Senden und Empfangen von Informationen von Ihrem Pokfolio",
-        "Aucune": "Ohne"
+    "plugins\/porkfolio\/plugin_info\/configuration.php": {
+        "Client ID : ": "Kunden-ID:",
+        "Client Secret : ": "Geheimer Kunde:",
+        "Username : ": "Benutzername:",
+        "Mot de passe : ": "Passwort:",
+        "Etes-vous sûr de vouloir installer\/mettre à jour le fichier de config ? ": "Möchten Sie die Konfigurationsdatei wirklich installieren \/ aktualisieren?",
+        "Création \/ Mise à jour du fichier de config": "Erstellung \/ Aktualisierung der Konfigurationsdatei"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/couleurnez.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "Keine Ausrüstungsübereinstimmungen: Sie müssen die Ausrüstung (neu) registrieren",
+        "L\\'id de l\\'équipement ne peut etre vide : ": "Die Geräte-ID darf nicht leer sein:"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/update.porkfolio.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Pause": "Pause",
+        "Rechercher": "Suchen nach"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/retraitdepot.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "Keine Ausrüstungsübereinstimmungen: Sie müssen die Ausrüstung (neu) registrieren",
+        "L\\'id de l\\'équipement ne peut etre vide : ": "Die Geräte-ID darf nicht leer sein:"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/objectif.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "Keine Ausrüstungsübereinstimmungen: Sie müssen die Ausrüstung (neu) registrieren",
+        "L\\'id de l\\'équipement ne peut etre vide : ": "Die Geräte-ID darf nicht leer sein:"
+    },
+    "plugins\/porkfolio\/desktop\/php\/porkfolio.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Ajouter un porkfolio": "Fügen Sie ein Schweinefleischportfolio hinzu",
+        "Rechercher": "Suchen nach",
+        "Mes porkfolios": "Meine Schweinefleischmappen",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
+        "Configuration avancée": "Erweiterte Konfiguration",
+        "Dupliquer": "Duplikat",
+        "Equipement": "Gerät",
+        "Commandes": "Befehle",
+        "Nom de l'équipement porkfolio": "Gerätename Schweineportfolio",
+        "Objet parent": "Übergeordnetes Objekt",
+        "Aucun": "Ohne",
+        "Catégorie": "Kategorie",
+        "Activer": "Aktivieren",
+        "Visible": "Sichtbar",
+        "Configuration": "Konfiguration",
+        "Numéro": "Anzahl",
+        "Numéro de votre porkfolio si plusieurs, rien si vous en avez qu'un": "Nummer Ihres Schweinefleischportfolios, wenn mehrere, nichts, wenn Sie nur eine haben",
+        "Informations": "Information",
+        "Porkfolio Id": "Porkfolio Id",
+        "Porkfolio Name": "Porkfolio Name",
+        "Porkfolio Serial": "Porkfolio Serial",
+        "Porkfolio Mac": "Porkfolio Mac",
+        "Ajouter une commande": "Kommando hinzufügen",
+        "Nom": "Name",
+        "Options": "Optionen",
+        "Action": "Aktion"
+    },
+    "plugins\/porkfolio\/desktop\/js\/porkfolio.js": {
+        "Historiser": "Chronik",
+        "Tester": "Test"
+    },
+    "plugins\/porkfolio\/core\/ajax\/porkfolio.ajax.php": {
+        "Aucune methode correspondante à : ": "Keine Methode entsprechend:"
+    },
+    "plugins\/porkfolio\/core\/class\/porkfolio.class.php": {
+        "Somme": "Summe",
+        "Dernière Opération": "Letzte Operation",
+        "Objectif": "Ziel",
+        "Nez": "Nase",
+        "Date dépot": "Einzahlungsdatum",
+        "Date mouvement": "Bewegungsdatum",
+        "Date retournement": "Datum umdrehen",
+        "Rafraichir": "Aktualisieren"
     }
 }

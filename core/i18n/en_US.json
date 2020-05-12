@@ -1,6 +1,74 @@
 {
-    "plugins/porkfolio/plugin_info/info.xml": {
-        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": "Plugin for send and receive the info of your Pokfolio",
-        "Aucune": "None"
+    "plugins\/porkfolio\/plugin_info\/configuration.php": {
+        "Client ID : ": "Client ID:",
+        "Client Secret : ": "Secret Client:",
+        "Username : ": "Username:",
+        "Mot de passe : ": "Password :",
+        "Etes-vous sûr de vouloir installer\/mettre à jour le fichier de config ? ": "Are you sure you want to install \/ update the config file?",
+        "Création \/ Mise à jour du fichier de config": "Config file creation \/ update"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/couleurnez.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "No equipment matches: You must (re) -register the equipment",
+        "L\\'id de l\\'équipement ne peut etre vide : ": "The equipment id cannot be empty:"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/update.porkfolio.php": {
+        "401 - Accès non autorisé": "401 - Unauthorized access",
+        "Pause": "Pause",
+        "Rechercher": "Search"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/retraitdepot.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "No equipment matches: You must (re) -register the equipment",
+        "L\\'id de l\\'équipement ne peut etre vide : ": "The equipment id cannot be empty:"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/objectif.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "No equipment matches: You must (re) -register the equipment",
+        "L\\'id de l\\'équipement ne peut etre vide : ": "The equipment id cannot be empty:"
+    },
+    "plugins\/porkfolio\/desktop\/php\/porkfolio.php": {
+        "401 - Accès non autorisé": "401 - Unauthorized access",
+        "Ajouter un porkfolio": "Add a porkfolio",
+        "Rechercher": "Search",
+        "Mes porkfolios": "My porkfolios",
+        "Sauvegarder": "Save",
+        "Supprimer": "Delete",
+        "Configuration avancée": "Advanced configuration",
+        "Dupliquer": "Duplicate",
+        "Equipement": "Equipment",
+        "Commandes": "Commands",
+        "Nom de l'équipement porkfolio": "Equipment name porkfolio",
+        "Objet parent": "Parent object",
+        "Aucun": "None",
+        "Catégorie": "Category",
+        "Activer": "Activate",
+        "Visible": "Visible",
+        "Configuration": "Setup",
+        "Numéro": "Number",
+        "Numéro de votre porkfolio si plusieurs, rien si vous en avez qu'un": "Number of your porkfolio if several, nothing if you only have one",
+        "Informations": "Information",
+        "Porkfolio Id": "Porkfolio Id",
+        "Porkfolio Name": "Porkfolio Name",
+        "Porkfolio Serial": "Porkfolio Serial",
+        "Porkfolio Mac": "Porkfolio Mac",
+        "Ajouter une commande": "Add a command",
+        "Nom": "Name",
+        "Options": "Options",
+        "Action": "Action"
+    },
+    "plugins\/porkfolio\/desktop\/js\/porkfolio.js": {
+        "Historiser": "Historize",
+        "Tester": "Test"
+    },
+    "plugins\/porkfolio\/core\/ajax\/porkfolio.ajax.php": {
+        "Aucune methode correspondante à : ": "No method corresponding to:"
+    },
+    "plugins\/porkfolio\/core\/class\/porkfolio.class.php": {
+        "Somme": "Sum",
+        "Dernière Opération": "Last Operation",
+        "Objectif": "Goal",
+        "Nez": "Nose",
+        "Date dépot": "Deposit date",
+        "Date mouvement": "Movement date",
+        "Date retournement": "Flip date",
+        "Rafraichir": "Refresh"
     }
 }

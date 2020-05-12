@@ -1,6 +1,74 @@
 {
-    "plugins/porkfolio/plugin_info/info.xml": {
-        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": "Плагин для отправки и получения информации от вашего Pokfolio",
-        "Aucune": "Нет"
+    "plugins\/porkfolio\/plugin_info\/configuration.php": {
+        "Client ID : ": "",
+        "Client Secret : ": "",
+        "Username : ": "",
+        "Mot de passe : ": "Пароль:",
+        "Etes-vous sûr de vouloir installer\/mettre à jour le fichier de config ? ": "",
+        "Création \/ Mise à jour du fichier de config": ""
+    },
+    "plugins\/porkfolio\/desktop\/modal\/couleurnez.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "",
+        "L\\'id de l\\'équipement ne peut etre vide : ": ""
+    },
+    "plugins\/porkfolio\/desktop\/modal\/update.porkfolio.php": {
+        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
+        "Pause": "Пауза",
+        "Rechercher": "поиск"
+    },
+    "plugins\/porkfolio\/desktop\/modal\/retraitdepot.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "",
+        "L\\'id de l\\'équipement ne peut etre vide : ": ""
+    },
+    "plugins\/porkfolio\/desktop\/modal\/objectif.porkfolio.php": {
+        "Aucun equipement ne  correspond : Il faut (re)-enregistrer l\\'équipement ": "",
+        "L\\'id de l\\'équipement ne peut etre vide : ": ""
+    },
+    "plugins\/porkfolio\/desktop\/php\/porkfolio.php": {
+        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
+        "Ajouter un porkfolio": "",
+        "Rechercher": "поиск",
+        "Mes porkfolios": "",
+        "Sauvegarder": "Сохранить",
+        "Supprimer": "удаление",
+        "Configuration avancée": "Расширенные настройки",
+        "Dupliquer": "дубликат",
+        "Equipement": "Оборудование",
+        "Commandes": "Команды",
+        "Nom de l'équipement porkfolio": "",
+        "Objet parent": "Родительский объект",
+        "Aucun": "Нет",
+        "Catégorie": "категория",
+        "Activer": "активировать",
+        "Visible": "Видимый",
+        "Configuration": "Конфигурация",
+        "Numéro": "",
+        "Numéro de votre porkfolio si plusieurs, rien si vous en avez qu'un": "",
+        "Informations": "Информация",
+        "Porkfolio Id": "",
+        "Porkfolio Name": "",
+        "Porkfolio Serial": "",
+        "Porkfolio Mac": "",
+        "Ajouter une commande": "Добавить команду",
+        "Nom": "Имя",
+        "Options": "Опции",
+        "Action": "Действие"
+    },
+    "plugins\/porkfolio\/desktop\/js\/porkfolio.js": {
+        "Historiser": "История",
+        "Tester": "Тест"
+    },
+    "plugins\/porkfolio\/core\/ajax\/porkfolio.ajax.php": {
+        "Aucune methode correspondante à : ": "Aucune methode correspondante à :"
+    },
+    "plugins\/porkfolio\/core\/class\/porkfolio.class.php": {
+        "Somme": "сумма",
+        "Dernière Opération": "",
+        "Objectif": "",
+        "Nez": "",
+        "Date dépot": "",
+        "Date mouvement": "",
+        "Date retournement": "",
+        "Rafraichir": "Обновить"
     }
 }
