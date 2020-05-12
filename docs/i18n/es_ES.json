@@ -1,5 +1,7 @@
 {
-    "changelog.md": null,
+    "changelog.md": {
+        "Changelog Porkfolio": "Changelog Porkfolio"
+    },
     "index.md": {
         "Ce plugin permet de controller et d'avoir toutes les infos de sa": "Este complemento le permite controlar y tener toda la información sobre su",
         "tirelire Porkfolio": "Alcancía Porkfolio",

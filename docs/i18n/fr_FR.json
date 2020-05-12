@@ -1,5 +1,7 @@
 {
-    "changelog.md": null,
+    "changelog.md": {
+        "Changelog Porkfolio": "Changelog Porkfolio"
+    },
     "index.md": {
         "Porkfolio": "Porkfolio",
         "Description": "Description",
