@@ -70,5 +70,8 @@
         "Date mouvement": "",
         "Date retournement": "",
         "Rafraichir": "Yenile"
+    },
+    "info.json": {
+        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": ""
     }
 }

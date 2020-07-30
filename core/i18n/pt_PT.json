@@ -48,7 +48,7 @@
         "Porkfolio Id": "ID do portfólio",
         "Porkfolio Name": "Nome do Porkfolio",
         "Porkfolio Serial": "Porkfolio Serial",
-        "Porkfolio Mac": "Porkfolio Mac",
+        "Porkfolio Mac": "Mac Porkfolio",
         "Ajouter une commande": "Adicionar comando",
         "Nom": "Nome",
         "Options": "Opções",
@@ -70,5 +70,8 @@
         "Date mouvement": "Data do movimento",
         "Date retournement": "Data da inversão",
         "Rafraichir": "Legal"
+    },
+    "info.json": {
+        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": "Plugin para enviar e receber informações do seu Pokfolio"
     }
 }

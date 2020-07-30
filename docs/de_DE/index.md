@@ -15,7 +15,7 @@ Mit diesem Plugin können Sie alle Informationen von Ihrem Porkfolio-Sparschwein
 
 Um das Plugin verwenden zu können, müssen Sie es wie jedes Jeedom-Plugin herunterladen, installieren und aktivieren.
 
-Anschließend müssen Sie Ihre Anmeldeinformationen eingeben (Wink-Konto + API):
+Anschließend müssen Sie Ihre Anmeldedaten eingeben (Wink-Konto + API):
 
 ![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
 
@@ -33,13 +33,13 @@ Sie gelangen dann auf die Konfigurationsseite Ihres Schweinefleischportfolios:
 
 Auf dieser Seite finden Sie mehrere Abschnitte :
 
-**G.énéral**
+**Allgemein**
 
 In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. Nämlich den Namen Ihres Geräts, das Objekt, dem Sie es zuordnen möchten, die Kategorie (vorzugsweise Multimedia), ob das Gerät aktiv sein soll oder nicht, und schließlich, ob es auf dem Gerät sichtbar sein soll Dashboard.
 
 **Konfiguration**
 
-Dieser Abschnitt ist genau dann nützlich, wenn Sie mehrere Schweinefleischportfolios haben. Sie müssen die Gerätenummer eingeben (z. B. 1, 2 oder 3). Sie können dieses Feld leer lassen, wenn Sie nur ein Schweinefleischportfolio haben, was sicherlich Ihr Fall sein wird.
+Dieser Abschnitt ist genau dann nützlich, wenn Sie mehrere Schweinefleischportfolios haben. Sie müssen die Gerätenummer eingeben (z. B. 1, 2 oder 3)). Sie können dieses Feld leer lassen, wenn Sie nur ein Schweinefleischportfolio haben, was sicherlich Ihr Fall sein wird.
 
 **Befehle**
 

@@ -15,7 +15,7 @@ Este plugin permite que você controle e tenha todas as informações do seu mea
 
 Para usar o plug-in, você deve fazer o download, instalar e ativá-lo como qualquer plug-in Jeedom.
 
-Depois disso, você precisará inserir suas credenciais (conta de piscadela + API):
+Depois disso, você precisará inserir seus detalhes de login (conta wink + api):
 
 ![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
 
@@ -33,7 +33,7 @@ Você chegará à página de configuração do seu portfólio:
 
 Nesta página você encontrará várias seções :
 
-**Général**
+**Geral**
 
 Nesta seção, você encontrará todas as configurações do jeedom. Ou seja, o nome do seu equipamento, o objeto com o qual você deseja associá-lo, a categoria (de preferência multimídia), se você deseja que o equipamento esteja ativo ou não e, finalmente, se você deseja que ele fique visível na tela. painel de controle.
 

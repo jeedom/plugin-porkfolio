@@ -1,13 +1,33 @@
 {
     "id": "porkfolio",
     "name": "Porkfolio",
-    "description": "Plugin pour envoyer et recevoir des infos de votre Pokfolio",
+    "description": {
+        "fr_FR": "Plugin pour envoyer et recevoir des infos de votre Pokfolio",
+        "en_US": "Plugin to send and receive info from your Pokfolio",
+        "es_ES": "Complemento para enviar y recibir información de su Pokfolio",
+        "de_DE": "Plugin zum Senden und Empfangen von Informationen aus Ihrem Pokfolio",
+        "pt_PT": "Plugin para enviar e receber informações do seu Pokfolio"
+    },
     "licence": "AGPL",
     "author": "Ludovic SARAKHA",
     "require": "3.0",
     "category": "finance",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/finance\/porkfolio\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/finance\/porkfolio\/",
-    "language" : ["fr_FR","en_US","de_DE","sp_SP"],
-    "compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

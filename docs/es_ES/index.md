@@ -15,7 +15,7 @@ Este complemento le permite controlar y tener toda la información de su alcanc�
 
 Para usar el complemento, debe descargarlo, instalarlo y activarlo como cualquier complemento de Jeedom.
 
-Después de esto, deberá ingresar sus credenciales (cuenta de guiño + API):
+Después de esto, deberá ingresar sus datos de inicio de sesión (cuenta de guiño + api):
 
 ![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
 
@@ -33,7 +33,7 @@ Luego llegará a la página de configuración de su pigfolio:
 
 En esta página encontrarás varias secciones :
 
-**Général**
+**Principal**
 
 En esta sección encontrará todas las configuraciones de libertad. Es decir, el nombre de su equipo, el objeto con el que desea asociarlo, la categoría (preferiblemente multimedia), si desea que el equipo esté activo o no, y finalmente si desea que sea visible en el tablero de instrumentos.
 

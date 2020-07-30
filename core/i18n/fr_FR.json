@@ -70,5 +70,8 @@
         "Date mouvement": "Date mouvement",
         "Date retournement": "Date retournement",
         "Rafraichir": "Rafraichir"
+    },
+    "info.json": {
+        "Plugin pour envoyer et recevoir des infos de votre Pokfolio": "Plugin pour envoyer et recevoir des infos de votre Pokfolio"
     }
 }

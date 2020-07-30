@@ -15,7 +15,7 @@ This plugin allows you to control and have all the info from your Porkfolio pigg
 
 In order to use the plugin, you must download, install and activate it like any Jeedom plugin.
 
-Following this you will need to enter your credentials (wink account + API):
+Following this, you will need to enter your login details (wink account + api):
 
 ![porkfolio screenshot7](../images/porkfolio_screenshot7.jpg)
 
@@ -33,7 +33,7 @@ You will then arrive on the configuration page of your porkfolio:
 
 On this page you will find several sections :
 
-**Général**
+**Main**
 
 In this section you will find all jeedom configurations. Namely the name of your equipment, the object with which you want to associate it, the category (preferably multimedia), if you want the equipment to be active or not, and finally if you want it to be visible on the dashboard.
 
